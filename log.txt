@@ -23,3 +23,28 @@
 2026-04-27 17:24:26,550 - ERROR - technology: Raised An Error On (probably invalid json): tempArticles = response.json()["articles"]
 2026-04-27 17:24:26,550 - INFO - API Call And Handling Finished (May or may not have problems), Starting File Writing Now
 2026-04-27 17:24:26,550 - INFO - Program Finished With Errors
+2026-04-28 03:23:02,507 - INFO - Program Started
+2026-04-28 03:23:02,507 - INFO - About To Call API
+2026-04-28 03:23:02,671 - ERROR - business: Request Not Recieved (status_code is not 200)
+2026-04-28 03:23:02,671 - ERROR - 'Articles' Not in data (the response file after .json()), The API Likely Raised An Error 
+2026-04-28 03:23:02,671 - ERROR - business: Raised An Error On (probably invalid json): tempArticles = response.json()["articles"]
+2026-04-28 03:23:02,828 - ERROR - entertainment: Request Not Recieved (status_code is not 200)
+2026-04-28 03:23:02,828 - ERROR - 'Articles' Not in data (the response file after .json()), The API Likely Raised An Error 
+2026-04-28 03:23:02,828 - ERROR - entertainment: Raised An Error On (probably invalid json): tempArticles = response.json()["articles"]
+2026-04-28 03:23:02,998 - ERROR - general: Request Not Recieved (status_code is not 200)
+2026-04-28 03:23:02,998 - ERROR - 'Articles' Not in data (the response file after .json()), The API Likely Raised An Error 
+2026-04-28 03:23:02,998 - ERROR - general: Raised An Error On (probably invalid json): tempArticles = response.json()["articles"]
+2026-04-28 03:23:03,160 - ERROR - health: Request Not Recieved (status_code is not 200)
+2026-04-28 03:23:03,160 - ERROR - 'Articles' Not in data (the response file after .json()), The API Likely Raised An Error 
+2026-04-28 03:23:03,160 - ERROR - health: Raised An Error On (probably invalid json): tempArticles = response.json()["articles"]
+2026-04-28 03:23:03,323 - ERROR - science: Request Not Recieved (status_code is not 200)
+2026-04-28 03:23:03,323 - ERROR - 'Articles' Not in data (the response file after .json()), The API Likely Raised An Error 
+2026-04-28 03:23:03,323 - ERROR - science: Raised An Error On (probably invalid json): tempArticles = response.json()["articles"]
+2026-04-28 03:23:03,431 - ERROR - sports: Request Not Recieved (status_code is not 200)
+2026-04-28 03:23:03,431 - ERROR - 'Articles' Not in data (the response file after .json()), The API Likely Raised An Error 
+2026-04-28 03:23:03,431 - ERROR - sports: Raised An Error On (probably invalid json): tempArticles = response.json()["articles"]
+2026-04-28 03:23:03,570 - ERROR - technology: Request Not Recieved (status_code is not 200)
+2026-04-28 03:23:03,571 - ERROR - 'Articles' Not in data (the response file after .json()), The API Likely Raised An Error 
+2026-04-28 03:23:03,571 - ERROR - technology: Raised An Error On (probably invalid json): tempArticles = response.json()["articles"]
+2026-04-28 03:23:03,571 - INFO - API Call And Handling Finished (May or may not have problems), Starting File Writing Now
+2026-04-28 03:23:03,571 - INFO - Program Finished With Errors
