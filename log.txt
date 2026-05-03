@@ -173,3 +173,7 @@
 2026-05-03 03:23:37,526 - ERROR - technology: Raised An Error On (probably invalid json): tempArticles = response.json()["articles"]
 2026-05-03 03:23:37,526 - INFO - API Call And Handling Finished (May or may not have problems), Starting File Writing Now
 2026-05-03 03:23:37,526 - INFO - Program Finished With Errors
+2026-05-03 06:18:58,307 - INFO - Program Started
+2026-05-03 06:18:58,307 - INFO - About To Call API
+2026-05-03 06:18:59,741 - INFO - API Call And Handling Finished (May or may not have problems), Starting File Writing Now
+2026-05-03 06:18:59,741 - INFO - Program Finished Without problems
