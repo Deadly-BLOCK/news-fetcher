@@ -47,7 +47,7 @@ jobs:
           
           git checkout gh-pages || git checkout --orphan gh-pages
           
-          git rm -rf . 
+          #git rm -rf . 
           
           mv /tmp/news.txt index.html
           
