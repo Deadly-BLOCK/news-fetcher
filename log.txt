@@ -6,3 +6,7 @@
 2026-05-03 06:46:37,610 - INFO - About To Call API
 2026-05-03 06:46:39,182 - INFO - API Handling Finished. Writing to news.txt
 2026-05-03 06:46:39,182 - INFO - Program Finished Without problems
+2026-05-03 06:49:16,753 - INFO - Program Started
+2026-05-03 06:49:16,754 - INFO - About To Call API
+2026-05-03 06:49:17,761 - INFO - API Handling Finished. Writing to news.txt
+2026-05-03 06:49:17,761 - INFO - Program Finished Without problems
