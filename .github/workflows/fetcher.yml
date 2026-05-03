@@ -43,14 +43,16 @@ jobs:
 
       - name: Deploy news to gh-pages
         run: |
-          cp news.txt /tmp/news.txt
+          cp index.html /tmp/index.html
           
           git checkout gh-pages || git checkout --orphan gh-pages
           
-          #git rm -rf . 
+          if [ -n "$(ls -A . 2>/dev/null)" ]; then
+            git rm -rf .
+          fi
           
-          mv /tmp/news.txt index.html
+          mv /tmp/index.html index.html
           
           git add index.html
           git commit -m "Web update: $(date)"
-          git push origin gh-pages --force
+          git push origin gh-pages --force 
