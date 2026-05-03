@@ -49,8 +49,8 @@ jobs:
           
           git rm -rf . 
           
-          mv /tmp/news.txt index.txt
+          mv /tmp/news.txt index.html
           
-          git add index.txt
+          git add index.html
           git commit -m "Web update: $(date)"
           git push origin gh-pages --force
