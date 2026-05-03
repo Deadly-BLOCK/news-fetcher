@@ -1,0 +1,4 @@
+2026-05-03 06:36:47,943 - INFO - Program Started
+2026-05-03 06:36:47,943 - INFO - About To Call API
+2026-05-03 06:36:49,315 - INFO - API Handling Finished. Writing to news.txt
+2026-05-03 06:36:49,316 - INFO - Program Finished Without problems
