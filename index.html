@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<title>News API Feed</title>
+<!-- RAW DATA FOR TOOLS -->
+<script id='news-data' type='application/json'>
+{"business": ["Trump hosts Xi for state dinner with tech CEOs - DW.com", "Nearly 170,000 pounds of raw meat recalled for false inspection labels - washingtonpost.com", "Tech Moguls Worth Combined $2.4 Trillion On Trump-Xi Dinner Guest List: See Who\u2019s Going - forbes.com", "Oracle on the hook to pay data centre investors even if site has no electricity - Financial Times", "Bond Yields at 5% Mark New Era 'Until Something Breaks' - Bloomberg.com", "Energy Department will spend $2 billion to squeeze more electricity from the aging power grid - apnews.com", "Costco Wholesale Beats Estimates. Its Stock Is Flat. - Barron's", "Bargain-seekers flood store, Route 1 as Frugal Fannie\u2019s closing sale begins - WCVB", "Exclusive | MGM Resorts Eyeing Bid for Barry Diller\u2019s People Incorporated - WSJ", "Fired \u2018We Buy Ugly Houses' franchisee sentenced to federal prison for fraud scheme, DOJ says - NBC 5 Dallas-Fort Worth", "Stock futures are little changed as Dow heads for fourth straight losing week: Live updates - CNBC", "Oil Prices Jump on Houthi Attacks, U.S.-Iran Escalation Fears - WSJ", "Lowe's partners with DoorDash, Alphabet's Wing Aviation on drone delivery service - Fox Business", "Elizabeth Holmes to be transferred to a halfway house next year - NBC News", "Silicon Valley's new fashion icon: Alexandr Wang and his camo t-shirt - Business Insider", "Alaska Airlines plans to increase passenger capacity at Everett airport - The Seattle Times", "New Jersey fines data center $1.1M after satellite pics expose 62 gas generators - Ars Technica", "McDonald's reveals major changes coming to menus, including a shift due to GLP-1s - NBC 5 Chicago", "The AI agent revolution has moved a big step closer - ft.com", "Muse sure looks a lot like OpenClaw - The Verge", "Student loan borrowers sue Trump administration over forgiven debts on credit reports - CNBC", "White House asks OpenAI and Anthropic to hold new models from UK testers until US review - Politico", "New York sues prediction market Polymarket, calling it an unlicensed gambling operation - apnews.com", "Starbucks to close 250 stores this week - Yahoo Finance", "Why Everpure Stock Is Surging To Record Highs - Investor's Business Daily", "Ex-Disney CEO Bob Chapek Says Bob Iger Ran \u2018Relentless Three-Year Campaign\u2019 to Fire Him: \u2018Made It Seem as If I Had Committed Some Terrible Offense\u2019 - Variety", "Tesla Semi Joins Parade Of New Model Showcases; Stock Falls - Investor's Business Daily", "As Trump mulls building Chinese EVs in U.S., automakers point to Germany as a cautionary tale - NBC News", "Google is sending an AI satellite into space next week - The Verge", "One blood test could screen you for 50 cancers. Here\u2019s why it\u2019s controversial. - washingtonpost.com", "McDonald\u2019s takes on Starbucks, Chipotle with big new menu debuts - New York Post", "Exclusive | Amazon to Expand Robot-Making Capacity With New, $100-Million Indiana Hub - WSJ", "Record-breaking diesel prices are poised to hit grocery bills \u2014 and your Thanksgiving turkey - MarketWatch", "Iced coffee, tattoos, thank-you notes: The shifting do\u2019s and don\u2019ts of job interviews - The Washington Post", "Merck sees pivotal victory for $3B eye disease prospect - Fierce Biotech", "Darden Restaurants stock falls as Olive Garden reports slower growth - CNBC", "Why so many Americans leave Social Security money on the table - Yahoo Finance", "Warren demands Trump officials explain removing a ban on interference in census data - npr.org", "New York Fed\u2019s Williams says it's 'reasonable' to expect another rate hike by year-end - CNBC", "Here's What a $1,000 Investment in SpaceX Stock Could Be Worth in 5 Years - The Motley Fool", "The AI Build-Out Is Becoming the Biggest Economic Bet in U.S. History - WSJ", "Amazon plans to use drones to deliver packages in Mass. - WBUR", "68-year-old breakfast chain operator files Chapter 11 bankruptcy - Yahoo Finance", "Bentley unveils Torcal, its first EV: 888 PS, 375 miles of range - Electrek", "Pasta sold at Walmart stores nationwide recalled. See affected item - usatoday.com", "Wendy's Tried to Terminate a Franchisee's Right to Operate 314 Restaurants. It Filed for Bankruptcy a Day Later - inc.com", "Caesars stockholders approve $6 billion merger with Fertitta - ABC News - Breaking News, Latest News and Videos", "Let The People Set The Pace Of Frontier AI - Noema Magazine", "Landry declares emergency to help farmers, loggers cope with record diesel prices - WAFB"], "entertainment": ["Chadwick Boseman Family Raised Questions About Opioid Levels in His System At Time of Death In Tense Letter to Widow - TMZ", "Cops Called On Kim Zolciak's Son After Allegedly Shooting Pellets Toward Horses - TMZ", "His Debut Novel Was a Literary Triumph. Was It Actually Written by AI? - WSJ", "Roseanne Barr calls former co-star a 'brainwashed bigot' after he said reboot was 'rightfully canceled' - Fox News", "Dakota Johnson Bares Her Black Silk Underwear in Fully Sheer Lace Naked Dress - instyle.com", "Dove Cameron and Damiano David Had a Very Italian Wedding - The Cut", "Dolly Parton's final vocal recording to appear on U2's new album 'Carnaval de Luz' - ABC News - Breaking News, Latest News and Videos", "\u2018Avengers: Endgame Encore\u2019 Adds 4 New Scenes Tying to \u2018Doomsday\u2019: [SPOILER] Fights Doctor Doom, [SPOILER] Travels to the Past and the Multiverse Collapses - Variety", "\"Plastic Surgery Expo\": 20 Celebrity Looks From Vogue World 2026 That Had Fans Shaking Their Heads - Bored Panda", "Angelina Jolie Sells Los Angeles Mansion for $24.7 Million\u2014After Revealing Plans to Leave the U.S. for Good - Realtor.com", "Owner of \u2018rehab\u2019 where Presley Gerber died had psychology license denied over criminal past involving meth and minor - Page Six", "Ed Sheeran ticket refunds available for Gillette concerts after Massachusetts attorney general steps in - CBS News", "Elizabeth Holmes documentary gets an R rating for graphic nudity - sfgate.com", "Exclusive | Kate Gosselin is \u2018nervous\u2019 over estranged son Collin\u2019s book: \u2018It\u2019s not pretty\u2019 - Page Six", "US rapper Macklemore announces Free Palestine tour after Ed Sheeran fallout - Al Jazeera", "King Charles II Allegedly Told Princess Diana He Was 'Not Actually In Love' With Her Before Their 1981 Wedding - yahoo.com", "Sienna Miller Got \u2018Mogged\u2019 by Her 14-Year-Old Daughter - The Cut", "We have a trailer for Musk documentary Elon called a \"hit piece\" - Ars Technica", "Woody Harrelson Says He Has Proof His Dad Hooked up With Matthew McConaughey\u2019s Mom - Yahoo", "Dealmakers React To Paramount-WBD Settlement: \"Tech Has Won\" - Deadline", "Johnny Depp Looks Nearly Unrecognizable With Salt-and-Pepper Hair Transformation and Colored Contacts - instyle.com", "Kaia Gerber\u2019s friends, boyfriend help model search for missing cat days after brother Presley\u2019s death - Page Six", "Lawmakers Unveil 20%-30% U.S. Film Incentive in Bid to Restore Hollywood Production - Variety", "\u2018Real Housewives\u2019 star, daughters involved in airport clash that draws police - Cleveland.com", "Oceans Calling Cancels Tomorrow\u2019s Sets - Stereogum", "\u2018Sesame Street\u2019 Movie in the Works at Netflix - The Hollywood Reporter", "'The Beast In Me' Renewed For Season 2 With Claire Danes Reprising Role - Deadline", "Brad Pitt says life is better with a dog. His new movie proves it. - USA Today", "Who was the Unabomber? The true story behind Netflix's new Ted Kaczynski movie. - yahoo.com", "Hannah Cruz and T.R. Knight Will Inhabit Little Shop of Horrors Off-Broadway - Playbill", "Diane Keaton's A-list replacement as Craig T. Nelson's love interest in 'Family Stone' sequel revealed - Page Six", "Taylor Swift's 'Patient Zero' Music Video To Debut At VMAs - Deadline", "Britney Spears, Kevin Federline's Son Jayden James Details Pressure to Prove Himself in Rare Interview - E! News", "'Star Trek: Strange New Worlds'' season 4 finale pays homage to two of 'The Next Generation''s greatest ever episodes - Space", "\u2018My Sad Dead\u2019 Review: Pablo Larra\u00edn\u2019s Eerie Netflix Ghost Story Just Wants Us to Listen - IndieWire", "Dolly Parton\u2019s sister breaks silence on family feud rumors amid legal dispute - Entertainment Weekly", "\u2018Pioneer Woman\u2019 Ree Drummond\u2019s son Jamar detained for biting cop months before assault arrest - pagesix.com", "My 10 Best Television Shows of the 21st Century - Drezner\u2019s World", "Ella Langley's \"Choosin' Texas\" Breaks All-Time Billboard Hot 100 Record With 23rd Week at No. 1 - Hypebeast", "Netflix\u2019s \u2018A Different World\u2019 Is a Bold, Fun and Timely Reboot Centering the Uniqueness of Gen Z: TV Review - Variety", "Death of Jennifer Eckhart, former Fox News producer, ruled suicide - KTLA", "\u2018America\u2019s Got Talent\u2019 Crowns Season 21 Champion - Billboard", "Ryan Murphy Says He 'Just Finished the Script' for a 'Glee' Reboot - Variety", "\u2018American Horror Story: 13\u2019 premiere red carpet: Jessica Lange, Sarah Paulson, Angela Bassett and more - Page Six", "Jonathan Taylor Thomas arrested, accused of kicking deputy during Westlake Village traffic stop - ABC7 Los Angeles", "Sunny Hostin reveals she was holdout juror in 1991 \u2018Butcher of Tompkins Square Park\u2019 trial - NBC News", "\u2018Monster: The Lizzie Borden Story\u2019 Finale Director Explains That Imagined Ending and Why Sarah Paulson Made Him Cry - The Hollywood Reporter", "Drug Paraphernalia and Birthday Plans: New Details Emerge About Hayden Panettiere's Death - rollingstone.com", "Disney+ and Hulu raise prices by up to 13 percent after doubling profits - Ars Technica", "Clavicular's rise shows the manosphere is changing. His criminal charges raise new questions - USA Today", "Sydney Sweeney Poses in Nude Lace Bra and Underwear With a Gold Necklace That Nods to Scooter Braun - instyle.com", "The Book Started as a Steamy Star Wars Fanfic. Now the Movie Adaptation Is Here. Uh-oh. - slate.com", "Upstate NY's 'Charlie Bucket' makes cameo on Netflix's new Wonka show - NewYorkUpstate.com", "Harvey Weinstein Sentenced to 15 Years in Prison for Sexual Assault After New York Retrial - Variety", "Ed Sheeran loses nearly half a million social media followers amid Macklemore scandal - The Independent"], "general": ["Netherlands 1-1 Germany (Sep 24, 2026) Game Analysis - ESPN", "Nearly 170,000 pounds of raw meat recalled for false inspection labels - washingtonpost.com", "UFC BJJ 11 Results: Musumeci vs. Mitchell - MMA Fighting", "Oracle on the hook to pay data centre investors even if site has no electricity - Financial Times", "How every senator voted on the Iran war powers resolution - washingtonpost.com", "Hundreds of thousands expected in Paris for Pope's visit - BBC", "Chicago Cubs clinch second straight MLB playoff berth with win over Marlins - Yahoo Sports", "Yom Kippur shooting outside Canadian synagogue was 'hate-motivated', officials say - BBC", "Live Updates: Trump hosting China's Xi at White House as they navigate AI, trade tensions and Taiwan - CBS News", "Measles case confirmed in Allen County - WANE 15", "Meta gets to consumer AI device market before OpenAI, but Zuckerberg's strategy remains unproven - CNBC", "Strokes nearly double among adults under a certain age in disturbing trend - Fox News", "Stormy weather at times across Connecticut Friday night through Sunday - WTNH.com", "France to Deploy Forces to Protect Saudi Red Sea Oil Port - WSJ", "Deaths of students at the University of Mississippi cast spotlight on kratom - AP News", "Ed Sheeran ticket refunds available for Gillette concerts after Massachusetts attorney general steps in - CBS News", "King Charles II Allegedly Told Princess Diana He Was 'Not Actually In Love' With Her Before Their 1981 Wedding - yahoo.com", "Woody Harrelson Says He Has Proof His Dad Hooked up With Matthew McConaughey\u2019s Mom - Yahoo", "NFL Week 3 picks: Upset and score predictions, matchup breakdowns for every game - NFL.com", "America had wiped out measles. Now babies are infected at birth. - NBC News", "Now Google Chrome shares tabs to new devices that save where you were - The Verge", "Missouri Republicans dragged out the battle over their gerrymander. Now they\u2019re trying to blame the state\u2019s top court - Democracy Docket", "The Copilot+ PC brand is dead: Microsoft and PC makers quietly pull back on tarnished Windows 11 AI PC branding - Windows Central", "Taylor Swift's 'Patient Zero' Music Video To Debut At VMAs - Deadline", "Scientists Just Found a Dino Artifact We\u2019ve Never Seen Before\u2014and It\u2019s Answering a Major Riddle - Yahoo", "Just one small serving of ultra-processed food a day linked to higher disease risk, major study finds - New York Post", "The Full \u2018Harvest Moon\u2019 Rises This Weekend \u2014 Why This One Is Different - Forbes", "Reference genomes and fossils revise bat family phylogeny and biogeography - Nature", "SpaceX's next astronaut launch for NASA now set for Oct. 1 after delay - Space"], "health": ["Treadmills to deadlifts: Why Gen Z are swapping cardio for strength training - BBC", "From weeks to hours - the rapid new test transforming brain tumour diagnosis - BBC", "Doctors Make Damning Discovery Of 'Foreign Bodies' In Man's Chest, Pelvis, Bladder And Private Parts At Chinese Hospital - Bored Panda", "CDC opens state ordering for COVID-19 vaccines after unexplained delay - Ars Technica", "Hillsborough, Pasco and Pinellas counties issue states of emergency over dengue fever - Tampa Bay Times", "Measles case confirmed in Allen County - WANE 15", "Strokes nearly double among adults under a certain age in disturbing trend - Fox News", "Invasive Australian mosquito found in Portland for first time - OregonLive.com", "Blood Pressure Medication Recalled Nationwide\u2014Over 13,000 Bottles Affected - EatingWell", "Taking Vitamin D When You Don\u2019t Need It May Lead to Faster Cognitive Decline, Study Shows - Verywell Health", "Rabid bats are on the rise in Kansas City - KSHB 41 Kansas City", "Don\u2019t smoke? An unlucky trait can increase your lung cancer risk by 62 times - New York Post", "AlphaFold 'goes viral': database adds protein complexes of common viruses - Nature", "Austin doctors say flu, COVID cases rising - KXAN Austin", "America had wiped out measles. Now babies are infected at birth. - NBC News", "I Drank Lemon Water Every Day for a Month and This Is What Happened to My Body - Prevention", "Higher Coronary Blood Flow in Women May Help Explain Delayed CAD Presentation - American College of Cardiology", "Nearly 10,000 free radon test kits distributed as Iowa expands rural cancer care - KCCI", "Stanford Scientists Find That the Human Brain Is Actually Two Separate Organs - Futurism", "A female body part disappeared from textbooks because doctors thought it was useless \u2014 it's not - New York Post", "Officials raise awareness on new drug, more potent than fentanyl - WYFF", "The secret conversation between your brain and gut - CNN", "Teen Discovered With a Memory More Powerful Than 99.9% of The Population - sciencealert.com", "Dear Doctor: Is the new flu vaccine better enough to justify waiting for it? - OregonLive.com", "Cholesterol control gets personalized \u2013 a cardiologist explains how new guidelines tailor treatment to your unique risk profile - The Conversation", "Column | What to eat to get better sleep, according to new research - The Washington Post", "Column | Say More: I feel \u2018accosted\u2019 by the grocery store\u2019s cancer fundraiser - The Washington Post", "A huge study found a surprising link between statin timing and dementia risk - Yahoo", "Aging muscles may be losing strength for a reason scientists missed - ScienceDaily", "Forget mah-jongg and sudoku. Here\u2019s what\u2019s actually good for your aging brain. - The Boston Globe", "Why Do People Regain Weight After Stopping GLP-1s Like Ozempic? Researchers Think They\u2019ve Solved the Mystery - inc.com", "Congo is running short of health workers as Ebola remains out of control, WHO says - NBC News", "Just one small serving of ultra-processed food a day linked to higher disease risk, major study finds - New York Post", "Orange County man dies after contracting West Nile virus, family issues warning - ABC7 Los Angeles", "Scientists find the gene that drives T-cell exhaustion, revealing new strategy to improve immune responses - Medical Xpress", "8-year-old battles rare brain cancer diagnosis: 'Give us a little more time' - ABC11 News", "Coyote scratches wildlife control worker at T.F. Green Airport - WJAR", "Officials warn of possible measles exposure at Madison County restaurant - ksdk.com", "Landmark map of human brain\u2019s gene activity holds clues to Alzheimer\u2019s disease and more - Nature", "The anthropogenic fingerprint on emerging infectious diseases - Nature", "More than 1 in 10 US healthcare workers report ongoing long-COVID symptoms, study finds - CIDRAP", "Five Brain Profiles of Depression Identified - Neuroscience News", "Experimental drug reverses paralysis and vision loss in multiple sclerosis model - Medical Xpress", "HHS Appears to Be Prepping for Big Changes to Childhood Vaccine Recommendations - Talking Points Memo", "Creatine\u2019s benefits may go beyond the gym for older adults - futurity.org", "\u2018We\u2019re literally seeing new forms of measles\u2019: Infectious disease doc warns about scary Pennsylvania development - New York Post", "Off-Label GLP-1 Surges Since 2021, Uneven Across Groups - Medscape", "5 Dementia Symptoms That Can Show Up Years Before a Diagnosis - EatingWell", "Is long-term use of GLP-1s safe? - The Seattle Times", "\u201cIt\u2019s All Just In Your Head\u201d: How Perimenopause Is Becoming Wellness Culture\u2019s Cash Cow - boredpanda.com", "Americans are drinking less since the pandemic began, but one group bucks the trend - The Washington Post", "Map Shows US Measles Cases As Airport Warning Issued - Newsweek", "Bone density and the \"silent disease\": 4 things women should know about bone health - CBS News", "The 'Mind Control' Cat Parasite Manipulating You May Have a Simple Explanation - ScienceAlert", "2 Confirmed Legionnaires' Disease Cases Linked To Pool Area At Evanston Hotel - Patch", "The Best Strength Training Exercises for People Taking GLP-1s, According to an Expert - TODAY.com", "This emerging treatment could help people avoid knee replacement surgery - ScienceDaily", "Researchers Test a New Way To Find Pancreatic Cancer Before It\u2019s Too Late - scitechdaily.com", "Should you get a covid vaccine this fall? Here's what to know. - Yahoo", "Scientists are finally starting to figure out Alzheimer\u2019s - vox.com", "RamanOmics decodes the spatial vibrational\u2013molecular architecture of senescence in aging and repair - Nature", "Millions of parents are taking GLP-1s. How should they talk to their kids about it? - The Washington Post", "Doctors Are Telling Us What To Expect For Sick Season This Year, And I'm Already So Grossed Out - BuzzFeed", "Is a good belly laugh as strong as medicine? Some science backs it up - CNN", "The September 11 cancer wave ahead - CNN", "Scientists transplant human brain cells into mice to research disease - AOL.com", "Study finds possibly problematic drug combos being prescribed to older adults - washingtonpost.com"], "science": ["SpaceX's Starship megarocket aces launch rehearsal ahead of 1st orbital test flight (video) - Space", "This Newly Discovered Sea Spider Is a Parasite With Its Own Parasites - Gizmodo", "New videos of NASA's Artemis II launch show the absolute power of the SLS rocket - Space", "A dolphin in Australia steals food from fish in the grossest way - boingboing.net", "Astronomers Find a Black Hole Pointing a Jet Towards Earth \u2014 And It May Solve a Cosmic Mystery - ZME Science", "Astronomers capture an unprecedented view of gas giant formation in action - phys.org", "LSU lands $20M to unlock some of nature\u2019s fastest secrets - Baton Rouge Business Report", "Tiny worms may help doctors treat human brain disease - KSL", "After Decades, NASA May Finally Replace Mars Relays - hackaday.com", "Scientists Just Found a Dino Artifact We\u2019ve Never Seen Before\u2014and It\u2019s Answering a Major Riddle - Yahoo", "Isaacman says NASA \u2018dodged a bullet\u2019 with Chinese lunar mission delay - SpaceNews", "Watch This Orange Cat's Hilarious 'Wiggle Butt' as He Spots a Fawn Outside - yahoo.com", "Physicists Detect a 300 TeV Photon That Should Never Have Reached Earth - ScienceAlert", "'Mars constantly throws surprises at you': Perseverance rover finds evidence of ancient hot water in Red Planet crater - Space", "Venus May Have Devoured Its Moon - WIRED", "JWST finds early galaxies were already seeding the universe with heavy elements - Phys.org", "Scientists Detect Radio Signals From an Exoplanet for the First Time in History - WIRED", "The Full \u2018Harvest Moon\u2019 Rises This Weekend \u2014 Why This One Is Different - Forbes", "Crown-of-thorns starfish can help reefs thrive - Phys.org", "Researchers Reconstruct Face of Oldest Known Homo sapiens - Sci.News", "Astrophysicists use wave simulations to open a new window on dark matter - Phys.org", "Reference genomes and fossils revise bat family phylogeny and biogeography - Nature", "A methanogen hydrolase reveals the structure of archaeal peptidoglycan - Nature", "Sequence-encoded hexagonal lattices in multichannel peptide nanofibrils - Nature", "The gene-regulatory evolution of the human skeleton - Nature", "Gravitational torque drives multidecadal variations in length of day - Nature", "Biologists battle over North America's largest crayfish - Phys.org", "Caltech astronomers capture incredible video of supermassive black hole blasting a blazar towards earth - New York Post", "Bennu asteroid samples point to a surprising origin involving Jupiter - phys.org", "Central surface density of dark matter agrees with the prediction of a new theory of gravity - Phys.org", "'Really Unique' Amoeba Thrives in California's Hot Springs - Newser", "This weird form of boron is a million times more conductive than chemists expected - Nature", "Jelly bean isopods, rubber ducky isopods, and other pill bugs people keep as pets - Boing Boing", "Scientists reveal a bizarre sign that you\u2019ve got a well-behaved toddler - AOL.com", "An Invisible Force Has a Mysterious Effect on Aging, Scientists Discover in 'Startling' Breakthrough - 404media.co", "Bizarre new dinosaur with giant claws discovered in China - Phys.org", "Astronomers just named an asteroid after 'Weird Al' Yankovic - Space", "Fossilized Vomit Reveals How Plesiosaurs Dined on Jurassic Seafloor - Sci.News", "If The Dark Dimension Is Real, The Geometry of Primordial Black Holes Could Reach a Place We Cannot Go - sciencealert.com", "Biology Might Not Be Quantum, but Its Math Is Quantumlike - Quanta Magazine", "CERN scientists find no evidence that the Large Hadron Collider created microscopic black holes - thebrighterside.news", "With Bay Area common murres starving, biologists fear the worst - SFGATE", "James Webb Space Telescope finds water near our nearest supermassive black hole photo of the day for Sept. 23, 2026 - Space", "SpaceX's next astronaut launch for NASA now set for Oct. 1 after delay - Space", "Scientists Discovered an Inexplicable New Kind of Ice. It Gets Hot Enough to Melt Steel. - Yahoo", "A $950 Million Reason to Buy SpaceX Stock - Barchart.com", "Could warp drives ever be possible? - Space", "Earth's crust is 'unzipping' beneath Italy \u2014 and that could explain most of the earthquakes in the region - Live Science", "Amateur astronomer leads scientists to a massive 390-million-year-old impact crater in Quebec - The Brighter Side of News", "Small undersea volcanoes may unleash outsized tsunamis - Ars Technica", "A new report from Europe raises serious alarms about orbital collisions - Ars Technica", "Alien sunsets, stone spiderwebs and mysterious doors: Curiosity's top 10 photos after 5,000 days on Mars - Live Science", "Humanoid robots navigate narrow gaps and obstacles with whole-body AI control - Tech Xplore", "Pigeons' proposed inner-ear compass runs into a noise problem - Phys.org", "Tooth Study Shows T. Rex Was Warmblooded - The Japan News", "Physicists crack the math connecting ultraslow quantum magnetism to ultrafast black-hole physics - phys.org", "A Popular Plan To Fix Climate Change Could Have An Unexpectedly Disastrous Effect - bgr.com", "Scientists find weird exoplanet that orbits its star in the wrong direction - Space", "The future of spacecraft windows: 'We can't just live in a box' - Space", "Briny 'death pools' hold clues to early life - Phys.org", "A Deep-Space Shark Is Prowling the Cosmos\u2014and the Photo Just Won a Major Award - Gizmodo", "Watch scientists decipher burnt scrolls without unrolling them - Nature", "Earth\u2019s center of mass is moving, and scientists just found something surprising - AOL.com", "Biggest Supernova Dataset Yet Challenges Dark Energy Theory - SciTechDaily", "Lunar orbiter spots \u2018once-in-a-lifetime\u2019 new crater on the moon - CNN", "How Virus-like \u2018Jumping Genes\u2019 Became Our Partners in Evolution - Quanta Magazine", "Which Came First, The Chicken Or The Egg? Scientists Finally Have The Answer - a-z-animals.com", "\"Crying Is Predictable. Silence Is Terrifying\": 911 Dispatchers Are Sharing The Calls That Seem Fine At First, But Are Actually Major Emergencies - BuzzFeed", "Found On Newcastle Ranch, 'Rex Jr.' Could Be Most Important T. Rex Ever Discovered - Cowboy State Daily"], "sports": ["Don Cooper Passes Away - MLB Trade Rumors", "Senate expected to pass College Sports Bill, but window is closing - NewsNation", "Bob Pettit, imposing Hawks great and first NBA MVP, dies at 93 - AP News", "Netherlands 1-1 Germany (Sep 24, 2026) Game Analysis - ESPN", "Phillies\u2019 Luis Arraez Removed With Ankle Injury - MLB Trade Rumors", "UFC BJJ 11 Results: Musumeci vs. Mitchell - MMA Fighting", "Pelinka: Lakers grateful for run with LeBron, exit 'done amicably' - ESPN", "Seahawks injury report includes good and bad news - Seattle Sports", "Rap: Caleb Williams (hamstring) likely sits Week 3 - NBC Sports", "Etienne (hamstring) LP again, Miller (illness) DNP - NBC Sports", "Thursday Night Football: Falcons CB Billy Bowman will make his 2026 debut - NBC Sports", "Amon-Ra St. Brown says he was fined nearly $60,000 for four smoking-related celebrations - NBC Sports", "Fantasy Football Rankings: Hayden Winks' WR Blueprint for Week 3 - Yahoo Sports", "Yankees Place Clarke Schmidt On Injured List - MLB Trade Rumors", "Presidents Cup: Scottie Scheffler, Sam Burns sneak through tough opening round as U.S. takes early lead at Medinah - Yahoo Sports", "Seattle Mariners eliminated from 2026 playoff contention - Lookout Landing", "Chicago Cubs clinch second straight MLB playoff berth with win over Marlins - Yahoo Sports", "PREVIEW: Ducks Make Their Way to San Jose - NHL.com", "Braves To Place Mart\u00edn P\u00e9rez On Injured List - MLB Trade Rumors", "Judge Declines To Seal Josh Jacobs Video, But Cautions Against It Becoming Public - Defector", "With bad weather hitting Boston, Cubs-Red Sox games could move to Trop - Tampa Bay Times", "Joey Porter says he'll play for Steelers in '26 but when TBD - ESPN", "Kings assign five to AHL-Ontario, place five on waivers as final roster approaches - LA Kings Insider", "Giants amazingly claim Camilo Doval off waivers after trading him last summer - NBC Sports Bay Area & California", "President Donald Trump to attend Texas vs. Tennessee game in Knoxville - Yahoo Sports", "Four Storylines to Watch in Huskers' B1G Conference Opener Against Michigan State - Sports Illustrated", "Final RFK Stadium Master Plan to Include Gold Line, Parking Garages and Green Space - City Cast DC", "It Sucks To Be Alex Bregman Right Now - Defector", "NFL Week 3 picks: Upset and score predictions, matchup breakdowns for every game - NFL.com", "Brian Schottenheimer confident Cowboys will arrive in Brazil rested and ready to practice - NBC Sports", "The Phillies wild card possibilities are getting wilder - The Good Phight", "Eagles vs. Bears Game Preview: 5 questions and answers with the Week 3 enemy - Bleeding Green Nation", "Mets hire former Twins president of baseball ops to front office role - MLB.com", "What we learned from Thursday practice at the 2026 F1 Azerbaijan GP - Autosport", "Puka Nacua 'not making great progress,' according to Rams coach Sean McVay - Yahoo Sports", "Aaron Judge's latest injury offers a glimpse of a rapidly approaching Yankees future - Yahoo Sports", "Latest MLB Playoff Picture 2026, World Series Bracket and Wild Card Race - Bleacher Report", "New NFL Rumors on Giants' Possible QB Trade Targets After Jaxson Dart's Knee Injury - Bleacher Report", "3 bold predictions for Michigan Football vs Iowa - Maize n Brew", "5 Qs Lions vs. Jets preview: Big game from Amon-Ra St. Brown incoming? - Pride Of Detroit", "Tyson Fury vs. Anthony Joshua: English heavyweight super fight set for December in Cardiff, Wales - CBS Sports", "NBA Western Conference rankings 1-15 entering 2026-27 season - SB Nation", "How the Denver Broncos can beat the Los Angeles Rams on Sunday Night Football - Mile High Report", "WNBA playoff picture 2026: How will final seeds be set Thursday? - ESPN", "5 Trade Landing Spots for Marvin Harrison Jr. to Revive NFL Career - Bleacher Report", "Week 4 Game Day Kickoff: Can Oregon turn a corner? Is USC for real? - ESPN", "NBA Rank 2026: The new top 10 features a razor-thin race for No. 1 - ESPN", "'I'm not asking for anybody's sympathy': It's a pivotal season for Lincoln Riley and USC - ESPN", "Ranking eight winless NFL teams: Texans, Bucs, others at 0-2 - ESPN", "Matt Verderame\u2019s Notes: Patrick Mahomes\u2019s Resurgence Among Best Storylines for NFL Week 3 - Sports Illustrated", "Asian Games 2026: 17-year-old Ohashi Shin breaks world record in men\u2019s 200m breaststroke - olympics.com", "Ex-NC State head trainer arrested on more than 30 sexual abuse charges, records show - CBS17.com", "Start 'Em, Sit 'Em For Week 3 Fantasy Football Lineups: Tyler Shough, Chuba Hubbard & More - FantasyLife", "Northwestern Reveals Concession Menu Items, Prices at New $875M Stadium Set for Debut vs. Penn State - Bleacher Report", "Kurt Warner: I played through a dislocated left elbow, Jayden Daniels can if he wants to - NBC Sports", "Green Bay Packers vs. Atlanta Falcons Matchup Breakdown For Week 3 Fantasy Football - FantasyLife", "The streak is over: Sounders finally win - Sounder at Heart", "Atlanta Braves News: Ronald Acuna injury update, Robert Suarez returns, more - Battery Power", "'We're ready to fight': Group of Eagles tailgaters expresses concern about new tailgating guidelines - 6abc Philadelphia", "Justina Valentine\u2019s Viral Sydney Sweeney Nude Parody Has Fans Saying the Same Thing - yahoo.com", "Graham Bensinger issues statement regarding Mike Macdonald interview - NBC Sports", "Blue Jays succumb to baseball's chaos, eliminated from postseason contention - MLB.com", "'Their Super Bowl,' Lane Kiffin Talks LSU's Loss to Ole Miss in Revenge Game - Bleacher Report", "NASCAR legend Darrell Waltrip stepping away from public life due to FTD diagnosis - Motorsport.com", "Raiders defense is ready for Saints offense - Silver And Black Pride", "Kawakami: Steph Curry\u2019s possible next Warriors contract and a target list to fit - sfstandard.com", "Will Stein's pre-game observation cuts to the heart of Kentucky-Texas A&M stunner - footballscoop.com"], "technology": ["Nvidia CEO Doesn't Care That Kids Are Forgetting Basic Math Because Of AI: 'I Actually Don't Know My Address' - Kotaku", "15 early October Prime Day tech deals, hand-picked by our gadget experts - Mashable", "Xbox Says Its Share of GTA 6 Preorders Matches Its Share of the Console Market, Following PS5 Dominance Claim - IGN", "Google rolling out Android 17 QPR2 Beta 6 for Pixel - 9to5Google", "'We heard you, we heard media, we heard analysts': Motorola talks about why now is the time North America needs its premium Signature 27 phone - Android Central", "Entire Prince of Persia: The Lost Crown Game Available to Play for Free in Nintendo Switch Demo, But There\u2019s a Catch - IGN", "Gemini 3.8 Live with Live Avatar gives Google\u2019s AI a face - The Verge", "EXCLUSIVE: How Ubisoft and Nintendo\u2019s Partnership Ended With a Canceled Zelda Title - Insider Gaming", "This \u2018World of Warcraft: Forever\u2019 Mod Blocks All Interactions With Asmongold Fans - 404 Media", "Apple has three products launching soon that we\u2019ve waited a long time for - 9to5Mac", "13 Terrifying Statistics That Will Make You Shudder And Say, \"Wait, WHAT?\" - BuzzFeed", "Apple Watch Ultra 4 includes a new watch face bezel option - 9to5Mac", "'It's Not Great Content': Ex-Dragon Age Exec Says He'd Now Change or Ditch Several Key Moments From the Series - IGN", "Call of Duty: Warzone Is Getting a New Toggle That Lets You Turn Off All Those Goofy Skins - IGN", "Muse will apparently let you download its entire filesystem - The Verge", "Chrome now saves scroll position, filled forms when sending tabs between devices - 9to5Google", "Google rolling out blood pressure & insulin resistance, more on Pixel Watch 3, 4, 5 - 9to5Google", "Early Reality Fracture Data Highlights Biggest Traps To Avoid - Draftsim", "Control Resonant Launch Patch Will Address Its Biggest Combat Complaints - Game Informer", "Rockstar reveals a \u00a3350 box of naughty GTA 6 collectables you definitely wouldn't get through airport security - eurogamer.net", "The next wave of VCs judging Startup Battlefield at Disrupt 2026 - TechCrunch", "Castlevania: Belmont's Curse Will Bridge The Gap Between The Animated Series And The Games - kotaku.com", "Google tests letting Gemini call businesses for you - TechCrunch", "The Googlebook has an opportunity to build Android like nothing else [Video] - 9to5Google", "Apple Watch Ultra 2 vs. Ultra 4 Buyer's Guide: Should You Upgrade? - MacRumors", "Reddit mod ordered to pay Nintendo $4.5 million in Switch piracy lawsuit - The Verge", "Activision\u2019s Halo Must Go Beyond Bungie - ign.com", "iPhone 18 Pro one week later: Zero compromises - 9to5Mac", "The Copilot+ PC brand is dead: Microsoft and PC makers quietly pull back on tarnished Windows 11 AI PC branding - Windows Central", "Free Play Days \u2013 PGA TOUR 2K25, The Escapists 2, Young Suns, and The Division 2 - XBOX Wire", "You might not miss what Nikon removed from its cheaper full-frame Z5 IIC - The Verge", "Xbox Is Adding New 'Game Tile Tags' To Help Track Achievements And Other Things - Pure Xbox", "These Upper Trim Levels Just Aren't Worth It - Jalopnik", "Meta\u2019s Muse AI Charms can interact with each other - The Verge", "Everything is spying on you and there\u2019s no opting out - The Verge", "Pok\u00e9mon TCG Pocket: Deluxe Pack: Mega Coming Soon - Pokemon.com", "Sony Supposedly Surveying Devs on Death of PS5 Discs - pushsquare.com", "Here's When You Can Play The Witcher 3: Wild Hunt \u2013 Remastered in Your Region - IGN", "Which is the best version of Dragon Quest XI S? Switch 2, PC, PS4, Xbox, PS5, Steam Deck, & AYN Thor compared - rpgsite.net", "Microsoft\u2019s Latest Round Of Layoffs May Have Killed A Brand New Age Of Empires Game - kotaku.com", "Digital Foundry: Fire Emblem Fortune\u2019s Weave is 720p docked, 540p handheld and 30fps, but uses DLSS - My Nintendo News", "There\u2019s a new way to break RSA that\u2019s faster than anything we\u2019ve seen before - Ars Technica", "Review: Apple\u2019s hyper-pricey M5 Ultra Mac Studio made me into a vibe coder - Ars Technica", "Injustice 3 Rumor Sparks Response From NetherRealm's Ed Boon - IGN", "8 Things We Wish We Knew Before Playing - IGN", "Pok\u00e9mon TCG: 30th Anniversary Celebration Booster Bundles Are In Stock at Amazon - IGN", "Don't expect regular Destiny 2 updates to return, despite the surprise \"unvaulting\" of game additions - Eurogamer.net", "Microsoft files patent for \"ad-credit\" system to show ads on PC and Xbox without disrupting gameplay - GamesIndustry.biz", "Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure - The Hacker News", "Snap Specs Hands-On: Minimum Viable Consumer True AR Glasses - UploadVR", "ChatGPT in Siri 'Persistently Underperforming,' Says OpenAI - MacRumors", "Placeholder domain used in dev docs now serves ClickFix attacks - BleepingComputer", "iPhone 18 Pro vs. iPhone Duo: Comparing Apple\u2019s New Pro Phone Against Its First Foldable - CNET", "New RemControl Android banking malware targets users in Europe and Canada - BleepingComputer", "The First Ace Combat Game In Seven Years Is Playing For Keeps - Kotaku", "Microsoft refreshes its smaller Surface Pro and Laptop with Qualcomm\u2019s X2 Plus - The Verge", "13 Cool Tractor Supply Gadgets You Might Not Realize Exist - SlashGear", "Discord age verification rolls out today with changes spurred by user backlash - Ars Technica", "Qualcomm\u2019s New Minuscule Sound Chip Fits Wi-Fi Lossless Audio in Your Ears - Gizmodo", "Gemini just got a big upgrade with new connected apps for work, creativity, and life - Android Authority", "NVIDIA DLSS 5 Gets Open-Source Vulkan Reimplementation, Runs on RTX 40 GPUs and Even in Web Browsers - Wccftech", "72-Year-Old Pok\u00e9mon Collector Arrested After Illegally Tracking Woman Who Restocked Local Stores - IGN", "Sony Patent Would Let You Tap Your Card or Phone on Your PlayStation Controller to Make a Payment - ign.com", "PS5 Users Can Play Brand-New RPG for Free via PlayStation Store - PlayStation LifeStyle", "New cPanel Flaw Lets a Hosting Account Run Code as Root, Take Full Server Control - The Hacker News", "Review: EA Sports FC 27 (Switch 2) - Still The Best Football Option, Even With Caveats - Nintendo Life"]}
+</script>
+</head>
+<body>
+<h1>News Feed</h1>
+<p>Updated: 2026-09-26 03:55:55</p>
+<h2>business</h2>
+<ul>
+  <li>Trump hosts Xi for state dinner with tech CEOs - DW.com</li>
+  <li>Nearly 170,000 pounds of raw meat recalled for false inspection labels - washingtonpost.com</li>
+  <li>Tech Moguls Worth Combined $2.4 Trillion On Trump-Xi Dinner Guest List: See Who’s Going - forbes.com</li>
+  <li>Oracle on the hook to pay data centre investors even if site has no electricity - Financial Times</li>
+  <li>Bond Yields at 5% Mark New Era 'Until Something Breaks' - Bloomberg.com</li>
+  <li>Energy Department will spend $2 billion to squeeze more electricity from the aging power grid - apnews.com</li>
+  <li>Costco Wholesale Beats Estimates. Its Stock Is Flat. - Barron's</li>
+  <li>Bargain-seekers flood store, Route 1 as Frugal Fannie’s closing sale begins - WCVB</li>
+  <li>Exclusive | MGM Resorts Eyeing Bid for Barry Diller’s People Incorporated - WSJ</li>
+  <li>Fired ‘We Buy Ugly Houses' franchisee sentenced to federal prison for fraud scheme, DOJ says - NBC 5 Dallas-Fort Worth</li>
+  <li>Stock futures are little changed as Dow heads for fourth straight losing week: Live updates - CNBC</li>
+  <li>Oil Prices Jump on Houthi Attacks, U.S.-Iran Escalation Fears - WSJ</li>
+  <li>Lowe's partners with DoorDash, Alphabet's Wing Aviation on drone delivery service - Fox Business</li>
+  <li>Elizabeth Holmes to be transferred to a halfway house next year - NBC News</li>
+  <li>Silicon Valley's new fashion icon: Alexandr Wang and his camo t-shirt - Business Insider</li>
+  <li>Alaska Airlines plans to increase passenger capacity at Everett airport - The Seattle Times</li>
+  <li>New Jersey fines data center $1.1M after satellite pics expose 62 gas generators - Ars Technica</li>
+  <li>McDonald's reveals major changes coming to menus, including a shift due to GLP-1s - NBC 5 Chicago</li>
+  <li>The AI agent revolution has moved a big step closer - ft.com</li>
+  <li>Muse sure looks a lot like OpenClaw - The Verge</li>
+  <li>Student loan borrowers sue Trump administration over forgiven debts on credit reports - CNBC</li>
+  <li>White House asks OpenAI and Anthropic to hold new models from UK testers until US review - Politico</li>
+  <li>New York sues prediction market Polymarket, calling it an unlicensed gambling operation - apnews.com</li>
+  <li>Starbucks to close 250 stores this week - Yahoo Finance</li>
+  <li>Why Everpure Stock Is Surging To Record Highs - Investor's Business Daily</li>
+  <li>Ex-Disney CEO Bob Chapek Says Bob Iger Ran ‘Relentless Three-Year Campaign’ to Fire Him: ‘Made It Seem as If I Had Committed Some Terrible Offense’ - Variety</li>
+  <li>Tesla Semi Joins Parade Of New Model Showcases; Stock Falls - Investor's Business Daily</li>
+  <li>As Trump mulls building Chinese EVs in U.S., automakers point to Germany as a cautionary tale - NBC News</li>
+  <li>Google is sending an AI satellite into space next week - The Verge</li>
+  <li>One blood test could screen you for 50 cancers. Here’s why it’s controversial. - washingtonpost.com</li>
+  <li>McDonald’s takes on Starbucks, Chipotle with big new menu debuts - New York Post</li>
+  <li>Exclusive | Amazon to Expand Robot-Making Capacity With New, $100-Million Indiana Hub - WSJ</li>
+  <li>Record-breaking diesel prices are poised to hit grocery bills — and your Thanksgiving turkey - MarketWatch</li>
+  <li>Iced coffee, tattoos, thank-you notes: The shifting do’s and don’ts of job interviews - The Washington Post</li>
+  <li>Merck sees pivotal victory for $3B eye disease prospect - Fierce Biotech</li>
+  <li>Darden Restaurants stock falls as Olive Garden reports slower growth - CNBC</li>
+  <li>Why so many Americans leave Social Security money on the table - Yahoo Finance</li>
+  <li>Warren demands Trump officials explain removing a ban on interference in census data - npr.org</li>
+  <li>New York Fed’s Williams says it's 'reasonable' to expect another rate hike by year-end - CNBC</li>
+  <li>Here's What a $1,000 Investment in SpaceX Stock Could Be Worth in 5 Years - The Motley Fool</li>
+  <li>The AI Build-Out Is Becoming the Biggest Economic Bet in U.S. History - WSJ</li>
+  <li>Amazon plans to use drones to deliver packages in Mass. - WBUR</li>
+  <li>68-year-old breakfast chain operator files Chapter 11 bankruptcy - Yahoo Finance</li>
+  <li>Bentley unveils Torcal, its first EV: 888 PS, 375 miles of range - Electrek</li>
+  <li>Pasta sold at Walmart stores nationwide recalled. See affected item - usatoday.com</li>
+  <li>Wendy's Tried to Terminate a Franchisee's Right to Operate 314 Restaurants. It Filed for Bankruptcy a Day Later - inc.com</li>
+  <li>Caesars stockholders approve $6 billion merger with Fertitta - ABC News - Breaking News, Latest News and Videos</li>
+  <li>Let The People Set The Pace Of Frontier AI - Noema Magazine</li>
+  <li>Landry declares emergency to help farmers, loggers cope with record diesel prices - WAFB</li>
+</ul>
+<h2>entertainment</h2>
+<ul>
+  <li>Chadwick Boseman Family Raised Questions About Opioid Levels in His System At Time of Death In Tense Letter to Widow - TMZ</li>
+  <li>Cops Called On Kim Zolciak's Son After Allegedly Shooting Pellets Toward Horses - TMZ</li>
+  <li>His Debut Novel Was a Literary Triumph. Was It Actually Written by AI? - WSJ</li>
+  <li>Roseanne Barr calls former co-star a 'brainwashed bigot' after he said reboot was 'rightfully canceled' - Fox News</li>
+  <li>Dakota Johnson Bares Her Black Silk Underwear in Fully Sheer Lace Naked Dress - instyle.com</li>
+  <li>Dove Cameron and Damiano David Had a Very Italian Wedding - The Cut</li>
+  <li>Dolly Parton's final vocal recording to appear on U2's new album 'Carnaval de Luz' - ABC News - Breaking News, Latest News and Videos</li>
+  <li>‘Avengers: Endgame Encore’ Adds 4 New Scenes Tying to ‘Doomsday’: [SPOILER] Fights Doctor Doom, [SPOILER] Travels to the Past and the Multiverse Collapses - Variety</li>
+  <li>"Plastic Surgery Expo": 20 Celebrity Looks From Vogue World 2026 That Had Fans Shaking Their Heads - Bored Panda</li>
+  <li>Angelina Jolie Sells Los Angeles Mansion for $24.7 Million—After Revealing Plans to Leave the U.S. for Good - Realtor.com</li>
+  <li>Owner of ‘rehab’ where Presley Gerber died had psychology license denied over criminal past involving meth and minor - Page Six</li>
+  <li>Ed Sheeran ticket refunds available for Gillette concerts after Massachusetts attorney general steps in - CBS News</li>
+  <li>Elizabeth Holmes documentary gets an R rating for graphic nudity - sfgate.com</li>
+  <li>Exclusive | Kate Gosselin is ‘nervous’ over estranged son Collin’s book: ‘It’s not pretty’ - Page Six</li>
+  <li>US rapper Macklemore announces Free Palestine tour after Ed Sheeran fallout - Al Jazeera</li>
+  <li>King Charles II Allegedly Told Princess Diana He Was 'Not Actually In Love' With Her Before Their 1981 Wedding - yahoo.com</li>
+  <li>Sienna Miller Got ‘Mogged’ by Her 14-Year-Old Daughter - The Cut</li>
+  <li>We have a trailer for Musk documentary Elon called a "hit piece" - Ars Technica</li>
+  <li>Woody Harrelson Says He Has Proof His Dad Hooked up With Matthew McConaughey’s Mom - Yahoo</li>
+  <li>Dealmakers React To Paramount-WBD Settlement: "Tech Has Won" - Deadline</li>
+  <li>Johnny Depp Looks Nearly Unrecognizable With Salt-and-Pepper Hair Transformation and Colored Contacts - instyle.com</li>
+  <li>Kaia Gerber’s friends, boyfriend help model search for missing cat days after brother Presley’s death - Page Six</li>
+  <li>Lawmakers Unveil 20%-30% U.S. Film Incentive in Bid to Restore Hollywood Production - Variety</li>
+  <li>‘Real Housewives’ star, daughters involved in airport clash that draws police - Cleveland.com</li>
+  <li>Oceans Calling Cancels Tomorrow’s Sets - Stereogum</li>
+  <li>‘Sesame Street’ Movie in the Works at Netflix - The Hollywood Reporter</li>
+  <li>'The Beast In Me' Renewed For Season 2 With Claire Danes Reprising Role - Deadline</li>
+  <li>Brad Pitt says life is better with a dog. His new movie proves it. - USA Today</li>
+  <li>Who was the Unabomber? The true story behind Netflix's new Ted Kaczynski movie. - yahoo.com</li>
+  <li>Hannah Cruz and T.R. Knight Will Inhabit Little Shop of Horrors Off-Broadway - Playbill</li>
+  <li>Diane Keaton's A-list replacement as Craig T. Nelson's love interest in 'Family Stone' sequel revealed - Page Six</li>
+  <li>Taylor Swift's 'Patient Zero' Music Video To Debut At VMAs - Deadline</li>
+  <li>Britney Spears, Kevin Federline's Son Jayden James Details Pressure to Prove Himself in Rare Interview - E! News</li>
+  <li>'Star Trek: Strange New Worlds'' season 4 finale pays homage to two of 'The Next Generation''s greatest ever episodes - Space</li>
+  <li>‘My Sad Dead’ Review: Pablo Larraín’s Eerie Netflix Ghost Story Just Wants Us to Listen - IndieWire</li>
+  <li>Dolly Parton’s sister breaks silence on family feud rumors amid legal dispute - Entertainment Weekly</li>
+  <li>‘Pioneer Woman’ Ree Drummond’s son Jamar detained for biting cop months before assault arrest - pagesix.com</li>
+  <li>My 10 Best Television Shows of the 21st Century - Drezner’s World</li>
+  <li>Ella Langley's "Choosin' Texas" Breaks All-Time Billboard Hot 100 Record With 23rd Week at No. 1 - Hypebeast</li>
+  <li>Netflix’s ‘A Different World’ Is a Bold, Fun and Timely Reboot Centering the Uniqueness of Gen Z: TV Review - Variety</li>
+  <li>Death of Jennifer Eckhart, former Fox News producer, ruled suicide - KTLA</li>
+  <li>‘America’s Got Talent’ Crowns Season 21 Champion - Billboard</li>
+  <li>Ryan Murphy Says He 'Just Finished the Script' for a 'Glee' Reboot - Variety</li>
+  <li>‘American Horror Story: 13’ premiere red carpet: Jessica Lange, Sarah Paulson, Angela Bassett and more - Page Six</li>
+  <li>Jonathan Taylor Thomas arrested, accused of kicking deputy during Westlake Village traffic stop - ABC7 Los Angeles</li>
+  <li>Sunny Hostin reveals she was holdout juror in 1991 ‘Butcher of Tompkins Square Park’ trial - NBC News</li>
+  <li>‘Monster: The Lizzie Borden Story’ Finale Director Explains That Imagined Ending and Why Sarah Paulson Made Him Cry - The Hollywood Reporter</li>
+  <li>Drug Paraphernalia and Birthday Plans: New Details Emerge About Hayden Panettiere's Death - rollingstone.com</li>
+  <li>Disney+ and Hulu raise prices by up to 13 percent after doubling profits - Ars Technica</li>
+  <li>Clavicular's rise shows the manosphere is changing. His criminal charges raise new questions - USA Today</li>
+  <li>Sydney Sweeney Poses in Nude Lace Bra and Underwear With a Gold Necklace That Nods to Scooter Braun - instyle.com</li>
+  <li>The Book Started as a Steamy Star Wars Fanfic. Now the Movie Adaptation Is Here. Uh-oh. - slate.com</li>
+  <li>Upstate NY's 'Charlie Bucket' makes cameo on Netflix's new Wonka show - NewYorkUpstate.com</li>
+  <li>Harvey Weinstein Sentenced to 15 Years in Prison for Sexual Assault After New York Retrial - Variety</li>
+  <li>Ed Sheeran loses nearly half a million social media followers amid Macklemore scandal - The Independent</li>
+</ul>
+<h2>general</h2>
+<ul>
+  <li>Netherlands 1-1 Germany (Sep 24, 2026) Game Analysis - ESPN</li>
+  <li>Nearly 170,000 pounds of raw meat recalled for false inspection labels - washingtonpost.com</li>
+  <li>UFC BJJ 11 Results: Musumeci vs. Mitchell - MMA Fighting</li>
+  <li>Oracle on the hook to pay data centre investors even if site has no electricity - Financial Times</li>
+  <li>How every senator voted on the Iran war powers resolution - washingtonpost.com</li>
+  <li>Hundreds of thousands expected in Paris for Pope's visit - BBC</li>
+  <li>Chicago Cubs clinch second straight MLB playoff berth with win over Marlins - Yahoo Sports</li>
+  <li>Yom Kippur shooting outside Canadian synagogue was 'hate-motivated', officials say - BBC</li>
+  <li>Live Updates: Trump hosting China's Xi at White House as they navigate AI, trade tensions and Taiwan - CBS News</li>
+  <li>Measles case confirmed in Allen County - WANE 15</li>
+  <li>Meta gets to consumer AI device market before OpenAI, but Zuckerberg's strategy remains unproven - CNBC</li>
+  <li>Strokes nearly double among adults under a certain age in disturbing trend - Fox News</li>
+  <li>Stormy weather at times across Connecticut Friday night through Sunday - WTNH.com</li>
+  <li>France to Deploy Forces to Protect Saudi Red Sea Oil Port - WSJ</li>
+  <li>Deaths of students at the University of Mississippi cast spotlight on kratom - AP News</li>
+  <li>Ed Sheeran ticket refunds available for Gillette concerts after Massachusetts attorney general steps in - CBS News</li>
+  <li>King Charles II Allegedly Told Princess Diana He Was 'Not Actually In Love' With Her Before Their 1981 Wedding - yahoo.com</li>
+  <li>Woody Harrelson Says He Has Proof His Dad Hooked up With Matthew McConaughey’s Mom - Yahoo</li>
+  <li>NFL Week 3 picks: Upset and score predictions, matchup breakdowns for every game - NFL.com</li>
+  <li>America had wiped out measles. Now babies are infected at birth. - NBC News</li>
+  <li>Now Google Chrome shares tabs to new devices that save where you were - The Verge</li>
+  <li>Missouri Republicans dragged out the battle over their gerrymander. Now they’re trying to blame the state’s top court - Democracy Docket</li>
+  <li>The Copilot+ PC brand is dead: Microsoft and PC makers quietly pull back on tarnished Windows 11 AI PC branding - Windows Central</li>
+  <li>Taylor Swift's 'Patient Zero' Music Video To Debut At VMAs - Deadline</li>
+  <li>Scientists Just Found a Dino Artifact We’ve Never Seen Before—and It’s Answering a Major Riddle - Yahoo</li>
+  <li>Just one small serving of ultra-processed food a day linked to higher disease risk, major study finds - New York Post</li>
+  <li>The Full ‘Harvest Moon’ Rises This Weekend — Why This One Is Different - Forbes</li>
+  <li>Reference genomes and fossils revise bat family phylogeny and biogeography - Nature</li>
+  <li>SpaceX's next astronaut launch for NASA now set for Oct. 1 after delay - Space</li>
+</ul>
+<h2>health</h2>
+<ul>
+  <li>Treadmills to deadlifts: Why Gen Z are swapping cardio for strength training - BBC</li>
+  <li>From weeks to hours - the rapid new test transforming brain tumour diagnosis - BBC</li>
+  <li>Doctors Make Damning Discovery Of 'Foreign Bodies' In Man's Chest, Pelvis, Bladder And Private Parts At Chinese Hospital - Bored Panda</li>
+  <li>CDC opens state ordering for COVID-19 vaccines after unexplained delay - Ars Technica</li>
+  <li>Hillsborough, Pasco and Pinellas counties issue states of emergency over dengue fever - Tampa Bay Times</li>
+  <li>Measles case confirmed in Allen County - WANE 15</li>
+  <li>Strokes nearly double among adults under a certain age in disturbing trend - Fox News</li>
+  <li>Invasive Australian mosquito found in Portland for first time - OregonLive.com</li>
+  <li>Blood Pressure Medication Recalled Nationwide—Over 13,000 Bottles Affected - EatingWell</li>
+  <li>Taking Vitamin D When You Don’t Need It May Lead to Faster Cognitive Decline, Study Shows - Verywell Health</li>
+  <li>Rabid bats are on the rise in Kansas City - KSHB 41 Kansas City</li>
+  <li>Don’t smoke? An unlucky trait can increase your lung cancer risk by 62 times - New York Post</li>
+  <li>AlphaFold 'goes viral': database adds protein complexes of common viruses - Nature</li>
+  <li>Austin doctors say flu, COVID cases rising - KXAN Austin</li>
+  <li>America had wiped out measles. Now babies are infected at birth. - NBC News</li>
+  <li>I Drank Lemon Water Every Day for a Month and This Is What Happened to My Body - Prevention</li>
+  <li>Higher Coronary Blood Flow in Women May Help Explain Delayed CAD Presentation - American College of Cardiology</li>
+  <li>Nearly 10,000 free radon test kits distributed as Iowa expands rural cancer care - KCCI</li>
+  <li>Stanford Scientists Find That the Human Brain Is Actually Two Separate Organs - Futurism</li>
+  <li>A female body part disappeared from textbooks because doctors thought it was useless — it's not - New York Post</li>
+  <li>Officials raise awareness on new drug, more potent than fentanyl - WYFF</li>
+  <li>The secret conversation between your brain and gut - CNN</li>
+  <li>Teen Discovered With a Memory More Powerful Than 99.9% of The Population - sciencealert.com</li>
+  <li>Dear Doctor: Is the new flu vaccine better enough to justify waiting for it? - OregonLive.com</li>
+  <li>Cholesterol control gets personalized – a cardiologist explains how new guidelines tailor treatment to your unique risk profile - The Conversation</li>
+  <li>Column | What to eat to get better sleep, according to new research - The Washington Post</li>
+  <li>Column | Say More: I feel ‘accosted’ by the grocery store’s cancer fundraiser - The Washington Post</li>
+  <li>A huge study found a surprising link between statin timing and dementia risk - Yahoo</li>
+  <li>Aging muscles may be losing strength for a reason scientists missed - ScienceDaily</li>
+  <li>Forget mah-jongg and sudoku. Here’s what’s actually good for your aging brain. - The Boston Globe</li>
+  <li>Why Do People Regain Weight After Stopping GLP-1s Like Ozempic? Researchers Think They’ve Solved the Mystery - inc.com</li>
+  <li>Congo is running short of health workers as Ebola remains out of control, WHO says - NBC News</li>
+  <li>Just one small serving of ultra-processed food a day linked to higher disease risk, major study finds - New York Post</li>
+  <li>Orange County man dies after contracting West Nile virus, family issues warning - ABC7 Los Angeles</li>
+  <li>Scientists find the gene that drives T-cell exhaustion, revealing new strategy to improve immune responses - Medical Xpress</li>
+  <li>8-year-old battles rare brain cancer diagnosis: 'Give us a little more time' - ABC11 News</li>
+  <li>Coyote scratches wildlife control worker at T.F. Green Airport - WJAR</li>
+  <li>Officials warn of possible measles exposure at Madison County restaurant - ksdk.com</li>
+  <li>Landmark map of human brain’s gene activity holds clues to Alzheimer’s disease and more - Nature</li>
+  <li>The anthropogenic fingerprint on emerging infectious diseases - Nature</li>
+  <li>More than 1 in 10 US healthcare workers report ongoing long-COVID symptoms, study finds - CIDRAP</li>
+  <li>Five Brain Profiles of Depression Identified - Neuroscience News</li>
+  <li>Experimental drug reverses paralysis and vision loss in multiple sclerosis model - Medical Xpress</li>
+  <li>HHS Appears to Be Prepping for Big Changes to Childhood Vaccine Recommendations - Talking Points Memo</li>
+  <li>Creatine’s benefits may go beyond the gym for older adults - futurity.org</li>
+  <li>‘We’re literally seeing new forms of measles’: Infectious disease doc warns about scary Pennsylvania development - New York Post</li>
+  <li>Off-Label GLP-1 Surges Since 2021, Uneven Across Groups - Medscape</li>
+  <li>5 Dementia Symptoms That Can Show Up Years Before a Diagnosis - EatingWell</li>
+  <li>Is long-term use of GLP-1s safe? - The Seattle Times</li>
+  <li>“It’s All Just In Your Head”: How Perimenopause Is Becoming Wellness Culture’s Cash Cow - boredpanda.com</li>
+  <li>Americans are drinking less since the pandemic began, but one group bucks the trend - The Washington Post</li>
+  <li>Map Shows US Measles Cases As Airport Warning Issued - Newsweek</li>
+  <li>Bone density and the "silent disease": 4 things women should know about bone health - CBS News</li>
+  <li>The 'Mind Control' Cat Parasite Manipulating You May Have a Simple Explanation - ScienceAlert</li>
+  <li>2 Confirmed Legionnaires' Disease Cases Linked To Pool Area At Evanston Hotel - Patch</li>
+  <li>The Best Strength Training Exercises for People Taking GLP-1s, According to an Expert - TODAY.com</li>
+  <li>This emerging treatment could help people avoid knee replacement surgery - ScienceDaily</li>
+  <li>Researchers Test a New Way To Find Pancreatic Cancer Before It’s Too Late - scitechdaily.com</li>
+  <li>Should you get a covid vaccine this fall? Here's what to know. - Yahoo</li>
+  <li>Scientists are finally starting to figure out Alzheimer’s - vox.com</li>
+  <li>RamanOmics decodes the spatial vibrational–molecular architecture of senescence in aging and repair - Nature</li>
+  <li>Millions of parents are taking GLP-1s. How should they talk to their kids about it? - The Washington Post</li>
+  <li>Doctors Are Telling Us What To Expect For Sick Season This Year, And I'm Already So Grossed Out - BuzzFeed</li>
+  <li>Is a good belly laugh as strong as medicine? Some science backs it up - CNN</li>
+  <li>The September 11 cancer wave ahead - CNN</li>
+  <li>Scientists transplant human brain cells into mice to research disease - AOL.com</li>
+  <li>Study finds possibly problematic drug combos being prescribed to older adults - washingtonpost.com</li>
+</ul>
+<h2>science</h2>
+<ul>
+  <li>SpaceX's Starship megarocket aces launch rehearsal ahead of 1st orbital test flight (video) - Space</li>
+  <li>This Newly Discovered Sea Spider Is a Parasite With Its Own Parasites - Gizmodo</li>
+  <li>New videos of NASA's Artemis II launch show the absolute power of the SLS rocket - Space</li>
+  <li>A dolphin in Australia steals food from fish in the grossest way - boingboing.net</li>
+  <li>Astronomers Find a Black Hole Pointing a Jet Towards Earth — And It May Solve a Cosmic Mystery - ZME Science</li>
+  <li>Astronomers capture an unprecedented view of gas giant formation in action - phys.org</li>
+  <li>LSU lands $20M to unlock some of nature’s fastest secrets - Baton Rouge Business Report</li>
+  <li>Tiny worms may help doctors treat human brain disease - KSL</li>
+  <li>After Decades, NASA May Finally Replace Mars Relays - hackaday.com</li>
+  <li>Scientists Just Found a Dino Artifact We’ve Never Seen Before—and It’s Answering a Major Riddle - Yahoo</li>
+  <li>Isaacman says NASA ‘dodged a bullet’ with Chinese lunar mission delay - SpaceNews</li>
+  <li>Watch This Orange Cat's Hilarious 'Wiggle Butt' as He Spots a Fawn Outside - yahoo.com</li>
+  <li>Physicists Detect a 300 TeV Photon That Should Never Have Reached Earth - ScienceAlert</li>
+  <li>'Mars constantly throws surprises at you': Perseverance rover finds evidence of ancient hot water in Red Planet crater - Space</li>
+  <li>Venus May Have Devoured Its Moon - WIRED</li>
+  <li>JWST finds early galaxies were already seeding the universe with heavy elements - Phys.org</li>
+  <li>Scientists Detect Radio Signals From an Exoplanet for the First Time in History - WIRED</li>
+  <li>The Full ‘Harvest Moon’ Rises This Weekend — Why This One Is Different - Forbes</li>
+  <li>Crown-of-thorns starfish can help reefs thrive - Phys.org</li>
+  <li>Researchers Reconstruct Face of Oldest Known Homo sapiens - Sci.News</li>
+  <li>Astrophysicists use wave simulations to open a new window on dark matter - Phys.org</li>
+  <li>Reference genomes and fossils revise bat family phylogeny and biogeography - Nature</li>
+  <li>A methanogen hydrolase reveals the structure of archaeal peptidoglycan - Nature</li>
+  <li>Sequence-encoded hexagonal lattices in multichannel peptide nanofibrils - Nature</li>
+  <li>The gene-regulatory evolution of the human skeleton - Nature</li>
+  <li>Gravitational torque drives multidecadal variations in length of day - Nature</li>
+  <li>Biologists battle over North America's largest crayfish - Phys.org</li>
+  <li>Caltech astronomers capture incredible video of supermassive black hole blasting a blazar towards earth - New York Post</li>
+  <li>Bennu asteroid samples point to a surprising origin involving Jupiter - phys.org</li>
+  <li>Central surface density of dark matter agrees with the prediction of a new theory of gravity - Phys.org</li>
+  <li>'Really Unique' Amoeba Thrives in California's Hot Springs - Newser</li>
+  <li>This weird form of boron is a million times more conductive than chemists expected - Nature</li>
+  <li>Jelly bean isopods, rubber ducky isopods, and other pill bugs people keep as pets - Boing Boing</li>
+  <li>Scientists reveal a bizarre sign that you’ve got a well-behaved toddler - AOL.com</li>
+  <li>An Invisible Force Has a Mysterious Effect on Aging, Scientists Discover in 'Startling' Breakthrough - 404media.co</li>
+  <li>Bizarre new dinosaur with giant claws discovered in China - Phys.org</li>
+  <li>Astronomers just named an asteroid after 'Weird Al' Yankovic - Space</li>
+  <li>Fossilized Vomit Reveals How Plesiosaurs Dined on Jurassic Seafloor - Sci.News</li>
+  <li>If The Dark Dimension Is Real, The Geometry of Primordial Black Holes Could Reach a Place We Cannot Go - sciencealert.com</li>
+  <li>Biology Might Not Be Quantum, but Its Math Is Quantumlike - Quanta Magazine</li>
+  <li>CERN scientists find no evidence that the Large Hadron Collider created microscopic black holes - thebrighterside.news</li>
+  <li>With Bay Area common murres starving, biologists fear the worst - SFGATE</li>
+  <li>James Webb Space Telescope finds water near our nearest supermassive black hole photo of the day for Sept. 23, 2026 - Space</li>
+  <li>SpaceX's next astronaut launch for NASA now set for Oct. 1 after delay - Space</li>
+  <li>Scientists Discovered an Inexplicable New Kind of Ice. It Gets Hot Enough to Melt Steel. - Yahoo</li>
+  <li>A $950 Million Reason to Buy SpaceX Stock - Barchart.com</li>
+  <li>Could warp drives ever be possible? - Space</li>
+  <li>Earth's crust is 'unzipping' beneath Italy — and that could explain most of the earthquakes in the region - Live Science</li>
+  <li>Amateur astronomer leads scientists to a massive 390-million-year-old impact crater in Quebec - The Brighter Side of News</li>
+  <li>Small undersea volcanoes may unleash outsized tsunamis - Ars Technica</li>
+  <li>A new report from Europe raises serious alarms about orbital collisions - Ars Technica</li>
+  <li>Alien sunsets, stone spiderwebs and mysterious doors: Curiosity's top 10 photos after 5,000 days on Mars - Live Science</li>
+  <li>Humanoid robots navigate narrow gaps and obstacles with whole-body AI control - Tech Xplore</li>
+  <li>Pigeons' proposed inner-ear compass runs into a noise problem - Phys.org</li>
+  <li>Tooth Study Shows T. Rex Was Warmblooded - The Japan News</li>
+  <li>Physicists crack the math connecting ultraslow quantum magnetism to ultrafast black-hole physics - phys.org</li>
+  <li>A Popular Plan To Fix Climate Change Could Have An Unexpectedly Disastrous Effect - bgr.com</li>
+  <li>Scientists find weird exoplanet that orbits its star in the wrong direction - Space</li>
+  <li>The future of spacecraft windows: 'We can't just live in a box' - Space</li>
+  <li>Briny 'death pools' hold clues to early life - Phys.org</li>
+  <li>A Deep-Space Shark Is Prowling the Cosmos—and the Photo Just Won a Major Award - Gizmodo</li>
+  <li>Watch scientists decipher burnt scrolls without unrolling them - Nature</li>
+  <li>Earth’s center of mass is moving, and scientists just found something surprising - AOL.com</li>
+  <li>Biggest Supernova Dataset Yet Challenges Dark Energy Theory - SciTechDaily</li>
+  <li>Lunar orbiter spots ‘once-in-a-lifetime’ new crater on the moon - CNN</li>
+  <li>How Virus-like ‘Jumping Genes’ Became Our Partners in Evolution - Quanta Magazine</li>
+  <li>Which Came First, The Chicken Or The Egg? Scientists Finally Have The Answer - a-z-animals.com</li>
+  <li>"Crying Is Predictable. Silence Is Terrifying": 911 Dispatchers Are Sharing The Calls That Seem Fine At First, But Are Actually Major Emergencies - BuzzFeed</li>
+  <li>Found On Newcastle Ranch, 'Rex Jr.' Could Be Most Important T. Rex Ever Discovered - Cowboy State Daily</li>
+</ul>
+<h2>sports</h2>
+<ul>
+  <li>Don Cooper Passes Away - MLB Trade Rumors</li>
+  <li>Senate expected to pass College Sports Bill, but window is closing - NewsNation</li>
+  <li>Bob Pettit, imposing Hawks great and first NBA MVP, dies at 93 - AP News</li>
+  <li>Netherlands 1-1 Germany (Sep 24, 2026) Game Analysis - ESPN</li>
+  <li>Phillies’ Luis Arraez Removed With Ankle Injury - MLB Trade Rumors</li>
+  <li>UFC BJJ 11 Results: Musumeci vs. Mitchell - MMA Fighting</li>
+  <li>Pelinka: Lakers grateful for run with LeBron, exit 'done amicably' - ESPN</li>
+  <li>Seahawks injury report includes good and bad news - Seattle Sports</li>
+  <li>Rap: Caleb Williams (hamstring) likely sits Week 3 - NBC Sports</li>
+  <li>Etienne (hamstring) LP again, Miller (illness) DNP - NBC Sports</li>
+  <li>Thursday Night Football: Falcons CB Billy Bowman will make his 2026 debut - NBC Sports</li>
+  <li>Amon-Ra St. Brown says he was fined nearly $60,000 for four smoking-related celebrations - NBC Sports</li>
+  <li>Fantasy Football Rankings: Hayden Winks' WR Blueprint for Week 3 - Yahoo Sports</li>
+  <li>Yankees Place Clarke Schmidt On Injured List - MLB Trade Rumors</li>
+  <li>Presidents Cup: Scottie Scheffler, Sam Burns sneak through tough opening round as U.S. takes early lead at Medinah - Yahoo Sports</li>
+  <li>Seattle Mariners eliminated from 2026 playoff contention - Lookout Landing</li>
+  <li>Chicago Cubs clinch second straight MLB playoff berth with win over Marlins - Yahoo Sports</li>
+  <li>PREVIEW: Ducks Make Their Way to San Jose - NHL.com</li>
+  <li>Braves To Place Martín Pérez On Injured List - MLB Trade Rumors</li>
+  <li>Judge Declines To Seal Josh Jacobs Video, But Cautions Against It Becoming Public - Defector</li>
+  <li>With bad weather hitting Boston, Cubs-Red Sox games could move to Trop - Tampa Bay Times</li>
+  <li>Joey Porter says he'll play for Steelers in '26 but when TBD - ESPN</li>
+  <li>Kings assign five to AHL-Ontario, place five on waivers as final roster approaches - LA Kings Insider</li>
+  <li>Giants amazingly claim Camilo Doval off waivers after trading him last summer - NBC Sports Bay Area & California</li>
+  <li>President Donald Trump to attend Texas vs. Tennessee game in Knoxville - Yahoo Sports</li>
+  <li>Four Storylines to Watch in Huskers' B1G Conference Opener Against Michigan State - Sports Illustrated</li>
+  <li>Final RFK Stadium Master Plan to Include Gold Line, Parking Garages and Green Space - City Cast DC</li>
+  <li>It Sucks To Be Alex Bregman Right Now - Defector</li>
+  <li>NFL Week 3 picks: Upset and score predictions, matchup breakdowns for every game - NFL.com</li>
+  <li>Brian Schottenheimer confident Cowboys will arrive in Brazil rested and ready to practice - NBC Sports</li>
+  <li>The Phillies wild card possibilities are getting wilder - The Good Phight</li>
+  <li>Eagles vs. Bears Game Preview: 5 questions and answers with the Week 3 enemy - Bleeding Green Nation</li>
+  <li>Mets hire former Twins president of baseball ops to front office role - MLB.com</li>
+  <li>What we learned from Thursday practice at the 2026 F1 Azerbaijan GP - Autosport</li>
+  <li>Puka Nacua 'not making great progress,' according to Rams coach Sean McVay - Yahoo Sports</li>
+  <li>Aaron Judge's latest injury offers a glimpse of a rapidly approaching Yankees future - Yahoo Sports</li>
+  <li>Latest MLB Playoff Picture 2026, World Series Bracket and Wild Card Race - Bleacher Report</li>
+  <li>New NFL Rumors on Giants' Possible QB Trade Targets After Jaxson Dart's Knee Injury - Bleacher Report</li>
+  <li>3 bold predictions for Michigan Football vs Iowa - Maize n Brew</li>
+  <li>5 Qs Lions vs. Jets preview: Big game from Amon-Ra St. Brown incoming? - Pride Of Detroit</li>
+  <li>Tyson Fury vs. Anthony Joshua: English heavyweight super fight set for December in Cardiff, Wales - CBS Sports</li>
+  <li>NBA Western Conference rankings 1-15 entering 2026-27 season - SB Nation</li>
+  <li>How the Denver Broncos can beat the Los Angeles Rams on Sunday Night Football - Mile High Report</li>
+  <li>WNBA playoff picture 2026: How will final seeds be set Thursday? - ESPN</li>
+  <li>5 Trade Landing Spots for Marvin Harrison Jr. to Revive NFL Career - Bleacher Report</li>
+  <li>Week 4 Game Day Kickoff: Can Oregon turn a corner? Is USC for real? - ESPN</li>
+  <li>NBA Rank 2026: The new top 10 features a razor-thin race for No. 1 - ESPN</li>
+  <li>'I'm not asking for anybody's sympathy': It's a pivotal season for Lincoln Riley and USC - ESPN</li>
+  <li>Ranking eight winless NFL teams: Texans, Bucs, others at 0-2 - ESPN</li>
+  <li>Matt Verderame’s Notes: Patrick Mahomes’s Resurgence Among Best Storylines for NFL Week 3 - Sports Illustrated</li>
+  <li>Asian Games 2026: 17-year-old Ohashi Shin breaks world record in men’s 200m breaststroke - olympics.com</li>
+  <li>Ex-NC State head trainer arrested on more than 30 sexual abuse charges, records show - CBS17.com</li>
+  <li>Start 'Em, Sit 'Em For Week 3 Fantasy Football Lineups: Tyler Shough, Chuba Hubbard & More - FantasyLife</li>
+  <li>Northwestern Reveals Concession Menu Items, Prices at New $875M Stadium Set for Debut vs. Penn State - Bleacher Report</li>
+  <li>Kurt Warner: I played through a dislocated left elbow, Jayden Daniels can if he wants to - NBC Sports</li>
+  <li>Green Bay Packers vs. Atlanta Falcons Matchup Breakdown For Week 3 Fantasy Football - FantasyLife</li>
+  <li>The streak is over: Sounders finally win - Sounder at Heart</li>
+  <li>Atlanta Braves News: Ronald Acuna injury update, Robert Suarez returns, more - Battery Power</li>
+  <li>'We're ready to fight': Group of Eagles tailgaters expresses concern about new tailgating guidelines - 6abc Philadelphia</li>
+  <li>Justina Valentine’s Viral Sydney Sweeney Nude Parody Has Fans Saying the Same Thing - yahoo.com</li>
+  <li>Graham Bensinger issues statement regarding Mike Macdonald interview - NBC Sports</li>
+  <li>Blue Jays succumb to baseball's chaos, eliminated from postseason contention - MLB.com</li>
+  <li>'Their Super Bowl,' Lane Kiffin Talks LSU's Loss to Ole Miss in Revenge Game - Bleacher Report</li>
+  <li>NASCAR legend Darrell Waltrip stepping away from public life due to FTD diagnosis - Motorsport.com</li>
+  <li>Raiders defense is ready for Saints offense - Silver And Black Pride</li>
+  <li>Kawakami: Steph Curry’s possible next Warriors contract and a target list to fit - sfstandard.com</li>
+  <li>Will Stein's pre-game observation cuts to the heart of Kentucky-Texas A&M stunner - footballscoop.com</li>
+</ul>
+<h2>technology</h2>
+<ul>
+  <li>Nvidia CEO Doesn't Care That Kids Are Forgetting Basic Math Because Of AI: 'I Actually Don't Know My Address' - Kotaku</li>
+  <li>15 early October Prime Day tech deals, hand-picked by our gadget experts - Mashable</li>
+  <li>Xbox Says Its Share of GTA 6 Preorders Matches Its Share of the Console Market, Following PS5 Dominance Claim - IGN</li>
+  <li>Google rolling out Android 17 QPR2 Beta 6 for Pixel - 9to5Google</li>
+  <li>'We heard you, we heard media, we heard analysts': Motorola talks about why now is the time North America needs its premium Signature 27 phone - Android Central</li>
+  <li>Entire Prince of Persia: The Lost Crown Game Available to Play for Free in Nintendo Switch Demo, But There’s a Catch - IGN</li>
+  <li>Gemini 3.8 Live with Live Avatar gives Google’s AI a face - The Verge</li>
+  <li>EXCLUSIVE: How Ubisoft and Nintendo’s Partnership Ended With a Canceled Zelda Title - Insider Gaming</li>
+  <li>This ‘World of Warcraft: Forever’ Mod Blocks All Interactions With Asmongold Fans - 404 Media</li>
+  <li>Apple has three products launching soon that we’ve waited a long time for - 9to5Mac</li>
+  <li>13 Terrifying Statistics That Will Make You Shudder And Say, "Wait, WHAT?" - BuzzFeed</li>
+  <li>Apple Watch Ultra 4 includes a new watch face bezel option - 9to5Mac</li>
+  <li>'It's Not Great Content': Ex-Dragon Age Exec Says He'd Now Change or Ditch Several Key Moments From the Series - IGN</li>
+  <li>Call of Duty: Warzone Is Getting a New Toggle That Lets You Turn Off All Those Goofy Skins - IGN</li>
+  <li>Muse will apparently let you download its entire filesystem - The Verge</li>
+  <li>Chrome now saves scroll position, filled forms when sending tabs between devices - 9to5Google</li>
+  <li>Google rolling out blood pressure & insulin resistance, more on Pixel Watch 3, 4, 5 - 9to5Google</li>
+  <li>Early Reality Fracture Data Highlights Biggest Traps To Avoid - Draftsim</li>
+  <li>Control Resonant Launch Patch Will Address Its Biggest Combat Complaints - Game Informer</li>
+  <li>Rockstar reveals a £350 box of naughty GTA 6 collectables you definitely wouldn't get through airport security - eurogamer.net</li>
+  <li>The next wave of VCs judging Startup Battlefield at Disrupt 2026 - TechCrunch</li>
+  <li>Castlevania: Belmont's Curse Will Bridge The Gap Between The Animated Series And The Games - kotaku.com</li>
+  <li>Google tests letting Gemini call businesses for you - TechCrunch</li>
+  <li>The Googlebook has an opportunity to build Android like nothing else [Video] - 9to5Google</li>
+  <li>Apple Watch Ultra 2 vs. Ultra 4 Buyer's Guide: Should You Upgrade? - MacRumors</li>
+  <li>Reddit mod ordered to pay Nintendo $4.5 million in Switch piracy lawsuit - The Verge</li>
+  <li>Activision’s Halo Must Go Beyond Bungie - ign.com</li>
+  <li>iPhone 18 Pro one week later: Zero compromises - 9to5Mac</li>
+  <li>The Copilot+ PC brand is dead: Microsoft and PC makers quietly pull back on tarnished Windows 11 AI PC branding - Windows Central</li>
+  <li>Free Play Days – PGA TOUR 2K25, The Escapists 2, Young Suns, and The Division 2 - XBOX Wire</li>
+  <li>You might not miss what Nikon removed from its cheaper full-frame Z5 IIC - The Verge</li>
+  <li>Xbox Is Adding New 'Game Tile Tags' To Help Track Achievements And Other Things - Pure Xbox</li>
+  <li>These Upper Trim Levels Just Aren't Worth It - Jalopnik</li>
+  <li>Meta’s Muse AI Charms can interact with each other - The Verge</li>
+  <li>Everything is spying on you and there’s no opting out - The Verge</li>
+  <li>Pokémon TCG Pocket: Deluxe Pack: Mega Coming Soon - Pokemon.com</li>
+  <li>Sony Supposedly Surveying Devs on Death of PS5 Discs - pushsquare.com</li>
+  <li>Here's When You Can Play The Witcher 3: Wild Hunt – Remastered in Your Region - IGN</li>
+  <li>Which is the best version of Dragon Quest XI S? Switch 2, PC, PS4, Xbox, PS5, Steam Deck, & AYN Thor compared - rpgsite.net</li>
+  <li>Microsoft’s Latest Round Of Layoffs May Have Killed A Brand New Age Of Empires Game - kotaku.com</li>
+  <li>Digital Foundry: Fire Emblem Fortune’s Weave is 720p docked, 540p handheld and 30fps, but uses DLSS - My Nintendo News</li>
+  <li>There’s a new way to break RSA that’s faster than anything we’ve seen before - Ars Technica</li>
+  <li>Review: Apple’s hyper-pricey M5 Ultra Mac Studio made me into a vibe coder - Ars Technica</li>
+  <li>Injustice 3 Rumor Sparks Response From NetherRealm's Ed Boon - IGN</li>
+  <li>8 Things We Wish We Knew Before Playing - IGN</li>
+  <li>Pokémon TCG: 30th Anniversary Celebration Booster Bundles Are In Stock at Amazon - IGN</li>
+  <li>Don't expect regular Destiny 2 updates to return, despite the surprise "unvaulting" of game additions - Eurogamer.net</li>
+  <li>Microsoft files patent for "ad-credit" system to show ads on PC and Xbox without disrupting gameplay - GamesIndustry.biz</li>
+  <li>Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure - The Hacker News</li>
+  <li>Snap Specs Hands-On: Minimum Viable Consumer True AR Glasses - UploadVR</li>
+  <li>ChatGPT in Siri 'Persistently Underperforming,' Says OpenAI - MacRumors</li>
+  <li>Placeholder domain used in dev docs now serves ClickFix attacks - BleepingComputer</li>
+  <li>iPhone 18 Pro vs. iPhone Duo: Comparing Apple’s New Pro Phone Against Its First Foldable - CNET</li>
+  <li>New RemControl Android banking malware targets users in Europe and Canada - BleepingComputer</li>
+  <li>The First Ace Combat Game In Seven Years Is Playing For Keeps - Kotaku</li>
+  <li>Microsoft refreshes its smaller Surface Pro and Laptop with Qualcomm’s X2 Plus - The Verge</li>
+  <li>13 Cool Tractor Supply Gadgets You Might Not Realize Exist - SlashGear</li>
+  <li>Discord age verification rolls out today with changes spurred by user backlash - Ars Technica</li>
+  <li>Qualcomm’s New Minuscule Sound Chip Fits Wi-Fi Lossless Audio in Your Ears - Gizmodo</li>
+  <li>Gemini just got a big upgrade with new connected apps for work, creativity, and life - Android Authority</li>
+  <li>NVIDIA DLSS 5 Gets Open-Source Vulkan Reimplementation, Runs on RTX 40 GPUs and Even in Web Browsers - Wccftech</li>
+  <li>72-Year-Old Pokémon Collector Arrested After Illegally Tracking Woman Who Restocked Local Stores - IGN</li>
+  <li>Sony Patent Would Let You Tap Your Card or Phone on Your PlayStation Controller to Make a Payment - ign.com</li>
+  <li>PS5 Users Can Play Brand-New RPG for Free via PlayStation Store - PlayStation LifeStyle</li>
+  <li>New cPanel Flaw Lets a Hosting Account Run Code as Root, Take Full Server Control - The Hacker News</li>
+  <li>Review: EA Sports FC 27 (Switch 2) - Still The Best Football Option, Even With Caveats - Nintendo Life</li>
+</ul>
+</body>
+</html>
