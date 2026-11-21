@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<title>News API Feed</title>
+<!-- RAW DATA FOR TOOLS -->
+<script id='news-data' type='application/json'>
+{"business": ["US approved sale of Nvidia and AMD chips to Chinese companies - Financial Times", "Cyberattack may have exposed Chase Bank and Mastercard customer data - The Washington Post", "SoftBank plunges over 16% as AI sell-off hits Asian tech stocks following Anthropic debut - CNBC", "Over 314,000 older Toyota and Lexus vehicles recalled for potentially dangerous airbag issue - Fox Business", "Hyundai reveals new 'bold and muscular look' Elantra - Detroit Free Press", "Massive hope for pancreatic cancer pill after trial saw tumours vanish - BBC", "Tens of thousands of UK fridges secured from hackers in secret nationwide operation - BBC", "California targets Nvidia in China AI chip probe - BBC", "BILL Agrees to be Acquired by TPG in Partnership with Corpay - Business Wire", "Amazon fights the Delivery Protection Act with homepage banner, in-app pop-up - Ars Technica", "Official 2026 Amazon Black Friday sale now live! Millions of deals: Apple, Google, TVs, home, more - 9to5Toys", "The view from the tower: Watch Starship come in for chopsticks catch in epic slo-mo video - Space", "6 things you should buy \u2014 and 5 things you definitely shouldn\u2019t \u2014 during Black Friday and Cyber Monday 2026 - NBC News", "Gap names new Athleta CEO, lowers full-year guidance - CNBC", "Is Nvidia Stock a Once-in-a-Decade Buying Opportunity After Its Latest Earnings? - The Motley Fool", "Intuit to sell Mailchimp to Bending Spoons for $3.68 billion - CNBC", "The Jensen Huang Blast Radius Has Hit His Favorite Restaurants - WIRED", "Sound Ventures turned $435 million into a $7 billion Anthropic stake. Ashton Kutcher left months before the IPO - Fortune", "AMD Stock Drops After Short Report Says It Isn\u2019t an Nvidia Replacement - Barron's", "Walmart, Costco see some panic-buying after tech outages - Yahoo Finance", "Microsoft CEO Reveals What Caused Massive Outlook Outage - Cheddar", "Sam Bankman-Fried\u2019s Anthropic Bet Is A $48 Billion Windfall For 37 Investor Groups - Forbes", "Trump bought Nvidia, Palantir, SpaceX in September as federal deals, White House ties grew - CNBC", "Verizon\u2019s CEO knows Elon Musk is coming for his business. He says it\u2019ll cost SpaceX over $300 billion to compete - Fortune", "KFC franchisee files for Chapter 11 bankruptcy: See list of stores at risk of closing in the Memphis area - localmemphis.com", "Fed rate-cut hopes for 2027 take a stunning turn - TheStreet", "There is no going back \u2018to the way it was before\u2019 the Iran war\u2019s energy shock, IEA says - AP News", "Thanksgiving travel to dip for first time in years as higher costs weigh on Americans - Fox Business", "North Carolina governor slams approved Duke Energy rate hike as \u2018too high\u2019 - WBTV", "UK government forced to disclose secret Apple backdoor order - TechCrunch", "Sponsor CEO charged in $600 million ponzi scheme - RACER - Racing News", "Over 879 flights delayed, 55 canceled amid widespread U.S. travel disruptions - NJ.com", "Trump\u2019s Financial Disclosure Reveals SpaceX, Tesla, Nvidia Trades - Forbes", "Jensen Huang Stepped Away From Nvidia. The Stock Has Crashed. Instead of Rushing to Buy the Dip, Here Are 2 AI Stocks Down More Than 15% to Buy Instead. - The Motley Fool", "Thanksgiving dinner will come with higher price tag: Research - The Hill", "Walmart raises full-year outlook as wealthier shoppers fuel sales growth - Fox Business", "Anthropic\u2019s brother-sister co-founders grew up right here in the Mission - Mission Local", "New alarm over China controlling drug supply chains - Axios", "Palo Alto Networks CEO just dropped a truth bomb on the network outages sweeping through major companies - Yahoo Finance", "U.S. Sens. Amy Klobuchar, Tim Sheehy introduce bill to counteract federal hemp-THC ban - MPR News", "New Millionaires Stoke San Francisco Real-Estate Market - WSJ", "Seth Meyers Says Markwayne Mullin's Latest Comment On Outages 'Makes No F**kin Sense' - HuffPost", "Proposed \u2018Fair Share Tax\u2019 could bring $70 million in revenue to Portland - KPTV", "Waymo pauses driverless taxis on U.S. freeways after California traffic incidents - The Washington Post", "Worried about an AI bust? So is the Federal Reserve. - The Washington Post", "NY faces statewide electricity shortage and has nation's oldest grid - Times Union", "Exclusive | Wall Street Pledged to Mobilize $500 Billion for Nvidia\u2014but Hasn\u2019t Put Up a Dime - WSJ", "\u2018Gross': Gov. Spanberger reacts to viral photo of NextEra workers - NBC4 Washington", "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is 'unpatchable' - TechCrunch", "US pending home sales tumble to record low in October - MSN", "What Could UnitedHealth Group (UNH) Face From New CMS Audits And Breakup Pressure? - Yahoo Finance", "Largest U.S. data centers use as much electricity as some states and countries, study finds - CBS News", "More banks say customers using AI agents are on their own \u2014 even if they get hacked - TechCrunch", "Elon Musk Has Invested in Skydance, David Ellison Confirms: \u2018To Have Him as a Shareholder Is an Honor\u2019 - Variety", "Target price cuts help retailer post strongest sales growth in years heading into holidays - Fox Business", "Safety warnings went unresolved during VA health record modernization, former employee claims - Military Times"], "entertainment": ["Billy Evans Will Secure His Cut of \u2018You Can See Everything\u2019 Profits After All \u2014 and Give It to Charity (Exclusive) - The Hollywood Reporter", "Valerie Bertinelli shows off her stomach in new video as fans say she\u2019s \u2018aging backwards\u2019 - Fox News", "Sam Hartman's next drive: 'The Bachelor' questions answered - ESPN", "Netflix\u2019s \u2018The Body\u2019 Sparks 126K-Strong Petition To Remove \u201cBlasphemous Anti-Christian\u201d Show - Deadline", "Jon Hamm becomes a dad for the first time at 55, welcoming baby boy with wife Anna Osceola - Entertainment Weekly", "William and Catherine's India tour was 'particularly special', aide says - BBC", "Bruno Mars' Dad Peter Hernandez Dead at 74 - TMZ", "NBC Shakes Up Thanksgiving Broadcast With 9 Broadway Shows Performing a Medley - The Hollywood Reporter", "Rob Lowe accuses Hollywood of blacklisting Ben Shapiro's 'Confession,' defends decision to star in right-wing movie - Page Six", "Larry Poindexter, \u2018S.W.A.T.\u2019 and \u2018Days Of Our Lives\u2019 Actor, Dies at 66 - Variety", "A Guide to the GTA VI Radio Stations - Pitchfork", "\u2018Gilded Age\u2019 Scores Early Season 5 Renewal at HBO - Variety", "Ryan Seacrest, 51, busts out yoga poses live on \u2018Wheel of Fortune\u2019 as he shares new fitness journey - Page Six", "Playbill Apologized for Its George Floyd the Musical Listing - The Cut", "\u2018The Traitors: New Blood\u2019 Renewed For Season 2 At NBC - Deadline", "\u2018Dig\u2019 Review: Amy Poehler\u2019s Talent-Rich Peacock Comedy Barely Scratches the Surface - IndieWire", "\u2018Invincible\u2019 Season 5 Sets Release Date, Drops Burger Mart Teaser Trailer - Variety", "Jax Taylor, former \u2018Vanderpump Rules\u2019 and Bravo reality TV star, reveals cancer diagnosis - NBC News", "The Best and Worst Outfits at the 2026 CMA Awards, Photos - Business Insider", "\u2018Law & Order: SVU\u2019 star takes extended leave from major Broadway show amid health battle - Page Six", "Fourth And Final Season of \u201cYellowjackets\u201d Is All Bark, And No Bite - Roger Ebert", "\u2018Afterlife With Archie\u2019 Disney+ Series Casts Its Archie, Veronica, Betty, Jughead & Sabrina - Deadline", "The actor behind Jason in 'GTA 6' has finally been revealed. Here's where you've seen him before. - Yahoo Tech", "\u2018You\u2019 and \u2018The Rookie\u2019 actor found dead in ocean at 38 - Cleveland.com", "Meet the \u2018GTA\u2019 Fans Spending Thousands on the Setups They Wanted as Kids - Rolling Stone", "Rihanna Fronts the 2027 Lady Dior Campaign With Daughter Rocki Irish Mayers - stupidDOPE", "Proof Travis Kelce is Down Bad for Taylor Swift's CMA Awards Performance - E! News", "'He Cannot Have Both': Prince William Reportedly Ready To Give Harry A Drastic Ultimatum - Yahoo", "Pierce Brosnan reacts to Robert Pattinson's casting as James Bond - USA Today", "Taylor Swift Goes Full Showgirl for Third CMA Awards Outfit in Bejeweled Minidress Dripping With Fringe - InStyle", "Jonathan Spector's Birthright Will Bow on Broadway This Spring - Playbill", "A van Gogh with a complex past sells for a record $190 million at auction - AP News", "Nicolas Cage's 'Madden' biopic fails the coach and the movie while Christian Bale's Al Davis steals the show - Fox News", "Mood Behind the Scenes on \u2018DWTS\u2019 Set Is \u201cVery Dark\u201d According to Sources - Cosmopolitan", "Ella Langley sweeps Country Music Awards as Taylor Swift performs with Keith Urban - BBC", "YouTube Refuses U.K. Government Request to Remove Russell Brand Video, Says It Is Investigating Content - Variety", "'The subject is still taboo': Shocking new film Josephine confronts sexual violence through a child's eyes - BBC", "Where is Caroline Ellison now? She's out of prison and landed a nonprofit job - Business Insider", "Catholic men, SNL's 'Sister' sketch is talking to you - National Catholic Reporter", "LAPD swarms home of singer Madison Beer and her fianc\u00e9 Justin Herbert - ABC7 Los Angeles", "Mental competency at issue in US criminal case against Meghan\u2019s father - AP News", "L'Or\u00e9al Paris Women of Worth Celebration LA 2026 red carpet: Eva Longoria, Ariana Greenblatt, Kristen Bell and more - Page Six", "CMA Awards: Tim McGraw\u2019s Rare Red Carpet Moment With Daughters Audrey and Maggie Is All You Want to See - E! News", "Dolly Parton\u2019s Niece Wears Beaded Fringe Dress Originally Designed for the Late Singer at CMA Awards 2026 - InStyle", "Florence Pugh slams 'disturbing' cosmetic surgery speculation - USA Today", "Whoopi Goldberg left mortified as \u2018The View\u2019 hosts get embroiled in a very crude debate on-air - Page Six", "Grimes & Elon Musk Feud Over AI \u2018Sex Slave,\u2019 Singer Urges Ex to \u2018Step Up\u2019 and Be \u2018the King He Used to Be\u2019 - Billboard", "'Hunger Games: Sunrise One The Reaping' Box Office Global Forecast - Deadline", "Skydance to Fold Paramount TV Studios Into Warner Bros. TV Under Channing Dungey and Matt Thunell - Variety", "Jimmy Kimmel shocked by audience response to monologue joke - Entertainment Weekly", "Kim Zolciak\u2019s 15-year-old son K.J. reportedly charged with 16 offenses, including incest, in previous case - Entertainment Weekly"], "general": ["Puka Nacua\u2019s suspension arises from diversion program - NBC Sports", "Senate passes landmark permitting deal - Politico", "Colts-Texans highlights: Best plays, moments, touchdowns, more - ESPN", "GTA 6 breaks records as sales top $2bn - industry estimate - BBC", "Texas execution took over an hour as staff struggled to find vein; Reinaldo Dennes moaned about pain - CNN", "Army postpones detonation of lead azide at Iowa ammunition plant - KCCI", "Justice Department seeks dismissal of its lawsuit in the Alaska Senate race - NBC News", "US approved sale of Nvidia and AMD chips to Chinese companies - Financial Times", "SoftBank plunges over 16% as AI sell-off hits Asian tech stocks following Anthropic debut - CNBC", "2-year-old who went missing in Arizona desert found by volunteer: \"I'll never forget it as long as I live\" - CBS News", "Experts have for decades wanted to diagnose CTE in living people. BU researchers may have found a way. - The Boston Globe", "Trump pardons late baseball great Pete Rose after historic China trip - ABC News - Breaking News, Latest News and Videos", "Hyundai reveals new 'bold and muscular look' Elantra - Detroit Free Press", "Fiona the hippo dies after eating a hat, Cincinnati Zoo says - NBC News", "LSU President says he has instructed Will Wade to not play RJ Luis - On3", "MacBook Pro Black Friday Deals Are Here: Get Up to $250 Off M6 and PROLED XDR - MacRumors", "Trump\u2019s pick for agency providing election security says Jan. 6 was not an attack - NBC News", "Apple Is Working on AI Agent for Device Control, Apps, Browsing and Coding - Bloomberg.com", "Saudi Arabia says Houthi attack damaged Riyadh tower - Al Jazeera", "Iran war powers measure again falls short in Senate - CBS News", "NASA\u2019s Voyager 1 phones home from an awe-inspiring one light-day away - AP News", "Google will launch Android app verification requirement globally in January 2027 - Ars Technica", "Putin says Russia won't negotiate limited ceasefire with Ukraine after bridge strike - CBS News", "\u2018The Traitors: New Blood\u2019 Renewed For Season 2 At NBC - Deadline", "Islam to surpass Christianity as world\u2019s largest religion by 2035, Pew data shows - The Times of Israel", "Taylor Swift Goes Full Showgirl for Third CMA Awards Outfit in Bejeweled Minidress Dripping With Fringe - InStyle", "Ella Langley sweeps Country Music Awards as Taylor Swift performs with Keith Urban - BBC", "Measles comeback puts daycares, schools on the front lines - The Hill", "Potatoes grown in simulated lunar soil match Earth-grown performance - Phys.org", "Eighth measles death reported as Pennsylvania nears 1,600 cases - The Washington Post", "Mental competency at issue in US criminal case against Meghan\u2019s father - AP News", "Astronomers witness a star eating its companion in 1st-of-its-kind observation - Space", "More Adults Over 65 Are Taking GLP-1s\u2014Here\u2019s Why Doctors Urge Caution - Health.com"], "health": ["Experts have for decades wanted to diagnose CTE in living people. BU researchers may have found a way. - The Boston Globe", "Do you need a measles booster shot now that the U.S. has lost its elimination status? - PBS", "Why Nearly 1 in 7 College Students Have Tried Creatine - Gizmodo", "Discovery points to new approach for treating diabetes\u2014no insulin required - Medical Xpress", "Popular alcoholic drinks linked to sudden kidney damage in 14-year study - Fox News", "Stem cells injected into brains of Alzheimer\u2019s patients in world first - The Times", "Health officials warn after rabid cat, raccoon expose one person and one cat in SC - WYFF", "Balancing redox-mediated cytotoxicity and catalysis in natural product biosynthesis - Science | AAAS", "A neural code for generative speech production in human Wernicke\u2019s area - Science | AAAS", "Childhood stomach bug toxin is \u2018leading explanation\u2019 for rise in early-onset colorectal cancer: expert - New York Post", "Ambulance service declares critical incident due to high demand - BBC", "Grindr\u2019s new filter hasn\u2019t been fully rolled out yet & it\u2019s already causing controversy - Queerty", "Chronic wasting disease detected in Idaho mule deer along Snake River - KTVB", "This One Sleep Factor Matters More Than How Many Hours You Get, Study Suggests - ScienceAlert", "Dear Doctor: I can get COVID and flu shots on the same day, but does that mean I should? - OregonLive.com", "People Who Don't Feel Anxious All The Time Know How To Regulate Themselves In 8 Easy Ways, Say Experts - YourTango", "After a Breast Cancer Diagnosis at 30, Her Twin Sister \u2018Dropped Everything\u2019 and Moved 1,200 Miles to Help (Exclusive) - Yahoo", "Facial photographs reveal mortality risk beyond triage and clinical risk scores - Nature", "Assessing Multiple Treatment Regimens for Tuberculosis - NEJM", "Frequent night shifts linked to changes in heart structure and function - News-Medical", "Scientists Link 2 Simple Eating Habits to Lasting Lower Weight - ScienceAlert", "Measles comeback puts daycares, schools on the front lines - The Hill", "As many employers stop covering GLP-1s for weight loss, workers are left scrambling - NBC News", "Cincinnati Health Department urges families to confirm vaccine records ahead of holidays - WKRC", "Why your joints may act up in the winter \u2014 and what can help - The Washington Post", "I\u2019m a cardiologist. I\u2019m a little puzzled about the blockbuster new study on deprescribing statins - STAT", "3 deaths reported amid Washington County respiratory illness outbreak - WGME", "Eighth measles death reported as Pennsylvania nears 1,600 cases - The Washington Post", "IU Among US and Canadian Young Adults Attending College 1992-2023 - JAMA", "Mpox case reported in the Denver metro area - KDVR", "Looks like Colorado could be in for another bad flu season, and 3 out of 4 people aren\u2019t vaccinated - Colorado Public Radio", "Flu activity rises to high levels across 6 US states: CDC says - New York Post", "RFK Jr.\u2019s Measles Cure Theory Comes Back to Light - Yahoo", "A glucose-powered artificial neuroimmune axis for metabolic control - Nature", "Meet the teen who called a St. Louis hospital home for more than 475 days - STLtoday.com", "L&I inspects two Central Washington dairies after worker dies from bird flu - KOMO", "NIH director calls for new probe of controversial COVID-19 origin paper - Science | AAAS", "Multiple cases of dog fungal disease reported in New York - WPTZ", "Alzheimer\u2019s blood marker could predict cognitive decline risks, says Mayo Clinic - Fox News", "Stem cell\u2013derived nanoparticles modulate immune cells and help delay type 1 diabetes in mice - Phys.org", "Unhappy marriages could cause dementia: New study - NewsNation", "Closest relatives of poxviruses prevail in human and animal guts worldwide - Nature", "Patients running out of options as antibiotics stop working against common infections - UN News", "A New Report Detailed The Risk Of Measles During Pregnancy. Scientists Say It Was Quietly Buried By The CDC. - HuffPost", "MIT discovers that aging weakens the brain\u2019s nighttime cleaning system - ScienceDaily", "Experimental Nose Drops Restored Fading Memory And Boosted Neuron Growth In Mice - ScienceAlert", "How pelvic floor physical therapy works and why few talk about it - WBUR", "Multiple short walks better than one long walk for controlling blood sugar - Medical Xpress", "GLP-1 Drugs and Kids: 'Is It the Right Thing?' - Newser", "Vapes cause \u2018irreversible\u2019 internal damage, study finds: \u2018This should be a wake-up call\u2019 - New York Post", "Respiratory illnesses surge across US as CDC warns of unusual trends - NewsNation", "Toward a Healthier Future Through Obesity Prevention and Care The JAMA Summit Report on Obesity - JAMA", "I Thought My Cough Was a Cold or COVID. It Turned Out to Be Lung Cancer - Prevention", "Generational gains in cognitive capacity and dementia incidence rates in Western countries - Nature", "Five surprising ways to boost your iron - that have nothing to do with meat - BBC", "A Gene Inherited From Neanderthals Is Still Shaping Human Brains \u2013 And May Affect Schizophrenia Risk - ScienceAlert", "More Adults Over 65 Are Taking GLP-1s\u2014Here\u2019s Why Doctors Urge Caution - Health.com", "\u2018A lot of women are angry\u2019: What people don\u2019t know about perimenopause - CNN", "Why sleep matters when it comes to weight gain and loss - NPR", "Scientists compared antidepressants over the long term. Three drugs stood out - Cleveland.com", "Ebola Outbreaks\u2014What Does the Bible Say? - JW.ORG", "I hit my goal weight on a GLP\u20111 \u2014 what now? - Yahoo Health"], "science": ["Physicists Just Sent an Unblockable Message Encoded in Gravity\u2014Using a 1950s Elevator - Gizmodo", "No more asteroid landing: Engine trouble forces Japan's Hayabusa2 probe to change plans - Space", "NASA\u2019s Voyager 1 phones home from an awe-inspiring one light-day away - AP News", "What if space and time don\u2019t exist? Physicists are chasing hints that our reality emerges from something deeper - Live Science", "Dark personality traits linked to better chance at getting a second date - Phys.org", "Astronomers discover remarkable triple-star system just 28 light-years from Earth - Phys.org", "Scientists Fear a Biological Apocalypse Could Destroy Us. Now They Have a Way to Stop It. - Yahoo", "Scientists Say De-Extinction Is Impossible\u2014Because Extinction Isn\u2019t What You Think It Is - Yahoo News Canada", "4D ultrasound cerebral angiography reveals the hemodynamics of the circle of Willis in primates - Nature", "X-rays tear water apart before its electrons can relax - Phys.org", "Invasive marine worm found in Long Island Sound. It\u2019s the first confirmed East Coast record - CT Insider", "APOD: 2026 November 19 - The Horsehead and Flame Nebulas - NASA Science (.gov)", "Observation of tunable superradiant frequency combs - Nature", "NASA plans to send a nuclear-powered spacecraft toward Mars in late 2028. It will carry three helicopters based on Ingenuity, the drone that flew 72 times on Mars - Futura, le m\u00e9dia qui explore le monde", "Structural and regulatory evolution across the genus Hordeum - Nature", "Astronomers witness a star eating its companion in 1st-of-its-kind observation - Space", "Black Holes May Be Born From Failed Star Explosions - Newser", "Earth is missing over a billion years of geological history. Scientists may have discovered why - Space", "Students Fighting to Save Poached Plant Species That Only Exists in Near Their Campus - Good News Network", "Duck-Billed Dinosaur\u2019s Beak was as Complex as Bird\u2019s - Sci.News", "Strange radio signals from space could come from a dead star - Phys.org", "Eagles may have hunted early human ancestors, shaping evolution - The Washington Post", "How electrons find their way to diamond's quantum defects - Phys.org", "Supernova explodes before astronomers' eyes photo of the day for Nov. 18, 2026 - Space", "What a drawer full of outgrown clothes taught me about the meaning of time - The Washington Post", "The surprising science of awe \u2014 and what it reveals about consciousness - Big Think", "Using a microwave link to transfer a three-level quantum state - Phys.org", "Genomic signatures of recent human adaptation to the foraging-to-farming transition - Nature", "An extracellular contractile injection system for receptor-mediated protein delivery into plant cells - Nature", "APOD: 2026 November 18 - A Medium-Sized Solar Flare - NASA Science (.gov)", "NASA smashed into an asteroid. Now scientists have discovered something strange. - Yahoo Tech", "Hawking\u2019s Black Hole Paradox Exposed Clash Between Physics Theories - American Physical Society", "CERN physicists measure universe at smallest scale ever, catching 1 in 10 billion particle interaction - Live Science", "A Montana rancher found a dinosaur on her own land in 2019. Seven years later, its skeleton sold for $47.3 million in New York - Futura, le m\u00e9dia qui explore le monde", "Scientists Recreate the First 2 Billion Years of the Universe in Stunning New Simulation - Yahoo", "Black bear gets little too close to another bear\u2019s butt and wins award - Yahoo", "Tiny parasite holds big clues to help protect threatened estuarine turtles - Phys.org", "Scientists Have Discovered Strange Glaciers With Towering Cliffs Inside Martian Craters - ScienceAlert", "Miles Below the Pacific, Rocks Litter the Abyss. Something Is Alive Inside Them\u2014Thousands of Somethings. - Yahoo", "DNA offers clues to the Bombay duck's rise in the East China Sea - Phys.org", "Satellites now outnumber the visible stars above most towns - Space", "Scientists Found a Neanderthal Group That Stayed Genetically Isolated for 50,000 Years - ZME Science", "Large Orca Relative Hunted in North Sea Over Two Million Years Ago - Sci.News", "Scientists Just Found Something Strange Under the Skin of Sea Pigs - Yahoo", "An open agentic AI co-scientist for clinical and biomedical discovery - Nature", "What Makes Up the Cosmos? A 20-Year Survey Hints That Something Is Missing. - Quanta Magazine", "NASA's Curiosity Rover Burst Open a Rock on Mars And Found a Big Surprise - Yahoo Tech", "Giant, prehistoric rodent fossils discovered in southern Thailand - Phys.org", "Why hasn't the 'Blaze Star' exploded yet? Astronomers weigh in on what to expect - Space", "Leonid meteor shower peaks tonight, Nov. 16, here's how to watch it - The Weather Channel", "\"It rolled over the rocks right up to me and extended a tentacle towards my toes, which I quickly retracted\" - BBC Wildlife Magazine", "Most Drivers Don't Realize This Handy Car Gadget Is Actually Illegal In Some States - BGR", "125,000-year-old poisoned stone points found beside an ancient lake in the Saudi Arabian desert - Archaeology News Online Magazine", "\u201cBubbles are coming up all over the place.\u201d One mile below the surface of the ocean, it fizzes like Champagne - BBC Wildlife Magazine", "Extinct \u2018vampire camel\u2019 once stalked North American plains - Science | AAAS"], "sports": ["Live scores, updates, news: Penguins vs. Blues, 7:08 p.m. - DK Pittsburgh Sports", "Puka Nacua\u2019s suspension arises from diversion program - NBC Sports", "Colts-Texans highlights: Best plays, moments, touchdowns, more - ESPN", "Hern\u00e1ndez back in Majors with Mets after posting 1.48 ERA in NPB (source) - MLB.com", "If Mets are to land big fish Skubal, Stearns needs to sail uncharted waters - MLB.com", "Wet conditions limit running in FP1 at Las Vegas Grand Prix - Formula 1", "Texans DE Chris Braswell seriously injures leg on opening kickoff - NBC Sports", "Tuten (ankle/foot) misses Thursday practice - NBC Sports", "Golden State Warriors vs Memphis Grizzlies Nov 19, 2026 Box Scores - NBA.com", "SEC standardized NIL, revenue sharing contracts 'unfair' for players, agents say - ESPN", "Trump pardons late baseball great Pete Rose after historic China trip - ABC News - Breaking News, Latest News and Videos", "Eastern vs MIT DIII Volleyball Women Game Summary - November 19, 2026 - NCAA.com", "Ranking the Top 30 prospects from the '26 Fall League campaign - MLB.com", "Aidan Hutchinson shares thoughts on injury: \u2018I always come back stronger\u2019 - Pride Of Detroit", "Bears work to get a stadium deal in Illinois by December 3 - NBC Sports", "NCAA grants waiver for Army vs. Navy to be played as 13th game in 2027 amid College Football Playoff expansion - CBS Sports", "49ers player claims Vikings tried to book Colorado facility but were too late - Bring Me The News", "Michigan receiver Andrew Marsh faces charge for indecent exposure - The Detroit News", "Lance Broadway, Pitcher Turned \u2018Olympus Has Fallen\u2019 Actor, Dies at 43 - The Hollywood Reporter", "Mayfield (foot) returns to practice on Thursday - NBC Sports", "How Lionel Messi's 2026 Inter Miami Contract Compared to Payrolls of Entire MLS Teams - Bleacher Report", "LSU just dared the SEC to enforce its own rules. Now the conference has a major problem - Yahoo Sports", "Merab Dvalishvili calls for Song Yadong next, expects Sean O\u2019Malley to get title shot - MMA Fighting", "Five Week 12 games could reshape the College Football Playoff picture - Deseret News", "Kirk Cousins called Fernando Mendoza to \u201cdebrief\u201d after rookie\u2019s first start - NBC Sports", "\u2018It worked every time': How Sixers found a clutch answer at shootaround - NBC Sports Philadelphia", "Capitals morning skate: Carbery subtly changing lines, Logan Thompson to start against Sabres, and Hockey Fights Cancer night plans - RMNB", "Reilly Wins Unprecedented Fourth Straight Big Ten Setter of the Year Award - Sports Illustrated", "Cowboys' Parker: I'm still DC, have 'job to do' after losing playcalling duties - ESPN", "Netflix, Amazon, Fox to bid for 2030 men's World Cup rights; Disney out - CNBC", "Troy Aikman escalates ongoing feud with Joe Buck, saying broadcast partner \u2018always wanted a one-man booth\u2019 - NBC News", "11/19 Preview - Zuccarello, Fiala Beginning to Thrive + Moore Out, Helenius in, Gustafsson's Strong Return, Coaching Reunion - LA Kings Insider", "WNBA\u2019s LA Sparks Near Record $750 Million Sale to Feliciano, Jones - Sportico.com", "Week 11 Start 'Em, Sit 'Em, Play or Bench Advice on Top Fantasy Football NFL Stars - Bleacher Report", "College football Week 12 picks, odds: 2 best bets for Saturday's games - Yahoo Sports", "Bill Belichick, Robert Kraft advance to final round of Hall of Fame voting - NBC Sports", "House working on small revisions of Protect College Sports Act before vote - On3", "NFL news roundup: Broncos, CB Riley Moss agree to terms on four-year, $67 million extension - NFL.com", "Bedard may need surgery for Blackhawks, will miss upcoming road trip - NHL.com", "Who Glenn Schumann could make his offensive coordinator if he takes the job at Florida State - 247Sports", "Kurt Warner praises Kirk Cousins, warns Vikings fans about problems that remain - Bring Me The News", "Reigning champion UCLA lands Wilson Manyacka, No. 2 prospect in 2027 SC Next 100 - ESPN", "College basketball rankings: Houston claims No. 1 spot in Top 25 And 1, sets up primetime showdown with Kansas - CBS Sports", "NFL Week 11 picks: Our experts face off on Colts at Texans, Vikings vs. 49ers and more - CBS Sports", "NFL mock draft 2027: 4 QBs selected in first-round projection with Arch Manning twist - SB Nation", "The Nets have lost their way\u2026 Now what? - NetsDaily", "What we learned about new NC State coach Philip Rivers in Fairhope, Alabama - ESPN", "Skubal to ...? What about other big free agents? How MLB offseason dominoes fall - ESPN", "UNC's Cameron Fens Files Lawsuit Against NCAA in Orange County - On3", "Celtics star called for shocking technical foul in Nuggets loss - MassLive", "Suns get much-needed charge from starters to beat Kings - Arizona Sports", "No. 12 Arizona hangs on to beat No. 3 UConn after nearly flawless 1st half - Arizona Sports", "Drayer: What the Maikel Garcia trade means for Mariners - Seattle Sports", "Nebraska's Jahsear Whittington out for Ohio State matchup, other noteworthy Husker injuries - 247Sports", "No. 1 Florida Upset by No. 8 Houston, Box Score Stats & Highlights of 2025 MCBB Title Game Rematch - Bleacher Report", "Twins pull off another big surprise, reuniting with Sonny Gray for $55 million - AaronGleeman.com", "Steelers hope to get a 'boost' from Michael Pittman Jr., Roman Wilson - DK Pittsburgh Sports", "Steelers-Bengals on Sunday Night Football draws 21.519 million viewers - NBC Sports", "NC State names longtime NFL assistant Jason Michael as offensive coordinator under Philip Rivers - FootballScoop.com", "Amanda Nunes reacts as Kayla Harrison registers interest in title fight against Valentina Shevchenko - Bloody Elbow", "Good news for 49ers WR Mike Evans despite not practicing - Niners Wire", "Big Ten Power Rankings: Playoff hopes, hot seats fuel pivotal final two weeks of season - CBS Sports", "Alexander Zverev officially notified of lawsuit by ex-partner in abuse case - ESPN", "Re-grading the Giannis Antetokounmpo trade: Why the Heat and Bucks both look much worse now - CBS Sports"], "technology": ["GTA 6 breaks records as sales top $2bn - industry estimate - BBC", "GTA 6 Mandy Actor Officially Reveals Her Identity in Video After Character Goes Viral - Yahoo", "MacBook Pro Black Friday Deals Are Here: Get Up to $250 Off M6 and PROLED XDR - MacRumors", "Apple Is Working on AI Agent for Device Control, Apps, Browsing and Coding - Bloomberg.com", "PS5 vs. Xbox Series X for GTA 6? Here's How the Hardware and Prices Stack Up - PCMag", "Cyberleek Is Threatening To Unleash Chaos Again After Allegedly Tossing An Xbox Build Of GTA 6 Onto The Internet - Kotaku", "'GTA 6': Fox News Slams Fans, Clavicular & Manosphere Bros Hate Lucia - Variety", "Next year\u2019s iPhone Pro redesign sounds like exactly what I\u2019ve been wanting - 9to5Mac", "Steam Machine 512GB can now be purchased directly, as Valve closes waitlist for the 2TB model - Notebookcheck", "18 Coolest Details Players Have Spotted In GTA 6 So Far - Kotaku", "'Encouraging Real-World Hostility and Violence' \u2014 Furry Community Divided by GTA 6 Parody - IGN", "Sony\u2019s WH-1000XM5 are cheaper than ever for Black Friday - The Verge", "'GTA 6' Is Triggering Men Who Are Learning How To Have A Girlfriend - Polygon.com", "The Best Buy Black Friday Deals Include Gaming PCs, TVs, and Popular LEGO Sets - IGN", "iPhone Duo vs. Samsung Galaxy Z Fold8: Which is Better? - MacRumors", "Google will launch Android app verification requirement globally in January 2027 - Ars Technica", "Nintendo launches 2026 Black Friday eShop sale, full list of Switch 2 and Switch deals - Nintendo Everything", "The best early Black Friday deals: discounts on OLED TVs, wireless headphones and more, handpicked by our experts - What Hi-Fi?", "AMD XDNA 2 NPUs can now run 35B-parameter AI models through Unsloth Desktop - VideoCardz.com", "Ubisoft lays off 166 staff at Montreal and Quebec studios - Gematsu", "Samsung One UI 9.5 Beta Is Here: 5 New Features and Which Galaxy Phones Qualify - TechRepublic", "Tomorrow Marks the End of a 28-Year Era at Apple - MacRumors", "Google Store Black Friday 2026: Refurb Pixel discounts, Fitbit Edge trade-in, more - 9to5Google", "The Best Ways To Earn Money In \u2018GTA 6,\u2019 Early, Mid- And Late-Game - Forbes", "Rockstar Kept One Of GTA 6\u2019s Biggest Early Spoilers Under Wraps For Years - Kotaku", "Warren Spector lambasts GTA 6's \"billion dollar\" development - 'I just hope it's is the last of its kind even if it's the best we have to offer' - Eurogamer.net", "You can't cheat on Lucia in GTA 6 with Mandy or strippers because Rockstar doesn't believe that's 'complementary to the feeling and motivations' of Jason and Lucia's story - Yahoo Tech", "Rockstar Confirms GTA 6 Won't Get 60 FPS Mode - 80 Level", "Famitsu sales (11/9/26 \u2013 11/15/26) \u2013 Zelda: Ocarina of Time\u2019s second week of sales are in - Nintendo Everything", "Apple announces Black Friday deals on iPhone, iPad, Mac, and more - 9to5Mac", "New GTA 6 Players, Be Careful When Claiming Your GTA+ Pre-Order Bonus - Push Square", "The 10 Greatest Games to Never Get a GOTY Nomination - Polygon.com", "How weapon ownership works in GTA 6 - GamesRadar+", "Google launches Gemini 4 Neon with Opus 5.5-level coding performance at 25% lower API token prices - VentureBeat", "Satya Nadella predicts AI agents will reshuffle the economics of the web - TechCrunch", "51+ tech gifts anyone would be excited to unwrap - NBC News", "Republican Congressman says you\u2019re a \u2018bad parent\u2019 if you let your child play GTA 6 - Video Games Chronicle", "PlayStation suffers major outage hours before \"GTA VI\" launch - Axios", "The first Nvidia RTX Spark mini PCs launch today from Asus, Dell, and MSI - The Verge", "Grand Theft Auto staff 'caught red-handed' in confidentiality breach, tribunal hears - BBC", "The Vice City Heat: Miami\u2019s NBA team goes all in on \u2018Grand Theft Auto VI\u2019 collaboration - AP News", "Grand Theft Auto 6 is the big release in November 2026, but there are other games to consider for something different - PCGamesN", "Grand Theft Auto VI Xbox achievements revealed - TrueAchievements", "Grand Theft Auto 6 complete walkthrough hub - Video Games Chronicle", "All GTA 6 Cheats And How To Unlock Them - GameSpot", "What parents need to know about GTA 6 and kids - ABC News - Breaking News, Latest News and Videos"]}
+</script>
+</head>
+<body>
+<h1>News Feed</h1>
+<p>Updated: 2026-11-21 05:56:23</p>
+<h2>business</h2>
+<ul>
+  <li>US approved sale of Nvidia and AMD chips to Chinese companies - Financial Times</li>
+  <li>Cyberattack may have exposed Chase Bank and Mastercard customer data - The Washington Post</li>
+  <li>SoftBank plunges over 16% as AI sell-off hits Asian tech stocks following Anthropic debut - CNBC</li>
+  <li>Over 314,000 older Toyota and Lexus vehicles recalled for potentially dangerous airbag issue - Fox Business</li>
+  <li>Hyundai reveals new 'bold and muscular look' Elantra - Detroit Free Press</li>
+  <li>Massive hope for pancreatic cancer pill after trial saw tumours vanish - BBC</li>
+  <li>Tens of thousands of UK fridges secured from hackers in secret nationwide operation - BBC</li>
+  <li>California targets Nvidia in China AI chip probe - BBC</li>
+  <li>BILL Agrees to be Acquired by TPG in Partnership with Corpay - Business Wire</li>
+  <li>Amazon fights the Delivery Protection Act with homepage banner, in-app pop-up - Ars Technica</li>
+  <li>Official 2026 Amazon Black Friday sale now live! Millions of deals: Apple, Google, TVs, home, more - 9to5Toys</li>
+  <li>The view from the tower: Watch Starship come in for chopsticks catch in epic slo-mo video - Space</li>
+  <li>6 things you should buy — and 5 things you definitely shouldn’t — during Black Friday and Cyber Monday 2026 - NBC News</li>
+  <li>Gap names new Athleta CEO, lowers full-year guidance - CNBC</li>
+  <li>Is Nvidia Stock a Once-in-a-Decade Buying Opportunity After Its Latest Earnings? - The Motley Fool</li>
+  <li>Intuit to sell Mailchimp to Bending Spoons for $3.68 billion - CNBC</li>
+  <li>The Jensen Huang Blast Radius Has Hit His Favorite Restaurants - WIRED</li>
+  <li>Sound Ventures turned $435 million into a $7 billion Anthropic stake. Ashton Kutcher left months before the IPO - Fortune</li>
+  <li>AMD Stock Drops After Short Report Says It Isn’t an Nvidia Replacement - Barron's</li>
+  <li>Walmart, Costco see some panic-buying after tech outages - Yahoo Finance</li>
+  <li>Microsoft CEO Reveals What Caused Massive Outlook Outage - Cheddar</li>
+  <li>Sam Bankman-Fried’s Anthropic Bet Is A $48 Billion Windfall For 37 Investor Groups - Forbes</li>
+  <li>Trump bought Nvidia, Palantir, SpaceX in September as federal deals, White House ties grew - CNBC</li>
+  <li>Verizon’s CEO knows Elon Musk is coming for his business. He says it’ll cost SpaceX over $300 billion to compete - Fortune</li>
+  <li>KFC franchisee files for Chapter 11 bankruptcy: See list of stores at risk of closing in the Memphis area - localmemphis.com</li>
+  <li>Fed rate-cut hopes for 2027 take a stunning turn - TheStreet</li>
+  <li>There is no going back ‘to the way it was before’ the Iran war’s energy shock, IEA says - AP News</li>
+  <li>Thanksgiving travel to dip for first time in years as higher costs weigh on Americans - Fox Business</li>
+  <li>North Carolina governor slams approved Duke Energy rate hike as ‘too high’ - WBTV</li>
+  <li>UK government forced to disclose secret Apple backdoor order - TechCrunch</li>
+  <li>Sponsor CEO charged in $600 million ponzi scheme - RACER - Racing News</li>
+  <li>Over 879 flights delayed, 55 canceled amid widespread U.S. travel disruptions - NJ.com</li>
+  <li>Trump’s Financial Disclosure Reveals SpaceX, Tesla, Nvidia Trades - Forbes</li>
+  <li>Jensen Huang Stepped Away From Nvidia. The Stock Has Crashed. Instead of Rushing to Buy the Dip, Here Are 2 AI Stocks Down More Than 15% to Buy Instead. - The Motley Fool</li>
+  <li>Thanksgiving dinner will come with higher price tag: Research - The Hill</li>
+  <li>Walmart raises full-year outlook as wealthier shoppers fuel sales growth - Fox Business</li>
+  <li>Anthropic’s brother-sister co-founders grew up right here in the Mission - Mission Local</li>
+  <li>New alarm over China controlling drug supply chains - Axios</li>
+  <li>Palo Alto Networks CEO just dropped a truth bomb on the network outages sweeping through major companies - Yahoo Finance</li>
+  <li>U.S. Sens. Amy Klobuchar, Tim Sheehy introduce bill to counteract federal hemp-THC ban - MPR News</li>
+  <li>New Millionaires Stoke San Francisco Real-Estate Market - WSJ</li>
+  <li>Seth Meyers Says Markwayne Mullin's Latest Comment On Outages 'Makes No F**kin Sense' - HuffPost</li>
+  <li>Proposed ‘Fair Share Tax’ could bring $70 million in revenue to Portland - KPTV</li>
+  <li>Waymo pauses driverless taxis on U.S. freeways after California traffic incidents - The Washington Post</li>
+  <li>Worried about an AI bust? So is the Federal Reserve. - The Washington Post</li>
+  <li>NY faces statewide electricity shortage and has nation's oldest grid - Times Union</li>
+  <li>Exclusive | Wall Street Pledged to Mobilize $500 Billion for Nvidia—but Hasn’t Put Up a Dime - WSJ</li>
+  <li>‘Gross': Gov. Spanberger reacts to viral photo of NextEra workers - NBC4 Washington</li>
+  <li>Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is 'unpatchable' - TechCrunch</li>
+  <li>US pending home sales tumble to record low in October - MSN</li>
+  <li>What Could UnitedHealth Group (UNH) Face From New CMS Audits And Breakup Pressure? - Yahoo Finance</li>
+  <li>Largest U.S. data centers use as much electricity as some states and countries, study finds - CBS News</li>
+  <li>More banks say customers using AI agents are on their own — even if they get hacked - TechCrunch</li>
+  <li>Elon Musk Has Invested in Skydance, David Ellison Confirms: ‘To Have Him as a Shareholder Is an Honor’ - Variety</li>
+  <li>Target price cuts help retailer post strongest sales growth in years heading into holidays - Fox Business</li>
+  <li>Safety warnings went unresolved during VA health record modernization, former employee claims - Military Times</li>
+</ul>
+<h2>entertainment</h2>
+<ul>
+  <li>Billy Evans Will Secure His Cut of ‘You Can See Everything’ Profits After All — and Give It to Charity (Exclusive) - The Hollywood Reporter</li>
+  <li>Valerie Bertinelli shows off her stomach in new video as fans say she’s ‘aging backwards’ - Fox News</li>
+  <li>Sam Hartman's next drive: 'The Bachelor' questions answered - ESPN</li>
+  <li>Netflix’s ‘The Body’ Sparks 126K-Strong Petition To Remove “Blasphemous Anti-Christian” Show - Deadline</li>
+  <li>Jon Hamm becomes a dad for the first time at 55, welcoming baby boy with wife Anna Osceola - Entertainment Weekly</li>
+  <li>William and Catherine's India tour was 'particularly special', aide says - BBC</li>
+  <li>Bruno Mars' Dad Peter Hernandez Dead at 74 - TMZ</li>
+  <li>NBC Shakes Up Thanksgiving Broadcast With 9 Broadway Shows Performing a Medley - The Hollywood Reporter</li>
+  <li>Rob Lowe accuses Hollywood of blacklisting Ben Shapiro's 'Confession,' defends decision to star in right-wing movie - Page Six</li>
+  <li>Larry Poindexter, ‘S.W.A.T.’ and ‘Days Of Our Lives’ Actor, Dies at 66 - Variety</li>
+  <li>A Guide to the GTA VI Radio Stations - Pitchfork</li>
+  <li>‘Gilded Age’ Scores Early Season 5 Renewal at HBO - Variety</li>
+  <li>Ryan Seacrest, 51, busts out yoga poses live on ‘Wheel of Fortune’ as he shares new fitness journey - Page Six</li>
+  <li>Playbill Apologized for Its George Floyd the Musical Listing - The Cut</li>
+  <li>‘The Traitors: New Blood’ Renewed For Season 2 At NBC - Deadline</li>
+  <li>‘Dig’ Review: Amy Poehler’s Talent-Rich Peacock Comedy Barely Scratches the Surface - IndieWire</li>
+  <li>‘Invincible’ Season 5 Sets Release Date, Drops Burger Mart Teaser Trailer - Variety</li>
+  <li>Jax Taylor, former ‘Vanderpump Rules’ and Bravo reality TV star, reveals cancer diagnosis - NBC News</li>
+  <li>The Best and Worst Outfits at the 2026 CMA Awards, Photos - Business Insider</li>
+  <li>‘Law & Order: SVU’ star takes extended leave from major Broadway show amid health battle - Page Six</li>
+  <li>Fourth And Final Season of “Yellowjackets” Is All Bark, And No Bite - Roger Ebert</li>
+  <li>‘Afterlife With Archie’ Disney+ Series Casts Its Archie, Veronica, Betty, Jughead & Sabrina - Deadline</li>
+  <li>The actor behind Jason in 'GTA 6' has finally been revealed. Here's where you've seen him before. - Yahoo Tech</li>
+  <li>‘You’ and ‘The Rookie’ actor found dead in ocean at 38 - Cleveland.com</li>
+  <li>Meet the ‘GTA’ Fans Spending Thousands on the Setups They Wanted as Kids - Rolling Stone</li>
+  <li>Rihanna Fronts the 2027 Lady Dior Campaign With Daughter Rocki Irish Mayers - stupidDOPE</li>
+  <li>Proof Travis Kelce is Down Bad for Taylor Swift's CMA Awards Performance - E! News</li>
+  <li>'He Cannot Have Both': Prince William Reportedly Ready To Give Harry A Drastic Ultimatum - Yahoo</li>
+  <li>Pierce Brosnan reacts to Robert Pattinson's casting as James Bond - USA Today</li>
+  <li>Taylor Swift Goes Full Showgirl for Third CMA Awards Outfit in Bejeweled Minidress Dripping With Fringe - InStyle</li>
+  <li>Jonathan Spector's Birthright Will Bow on Broadway This Spring - Playbill</li>
+  <li>A van Gogh with a complex past sells for a record $190 million at auction - AP News</li>
+  <li>Nicolas Cage's 'Madden' biopic fails the coach and the movie while Christian Bale's Al Davis steals the show - Fox News</li>
+  <li>Mood Behind the Scenes on ‘DWTS’ Set Is “Very Dark” According to Sources - Cosmopolitan</li>
+  <li>Ella Langley sweeps Country Music Awards as Taylor Swift performs with Keith Urban - BBC</li>
+  <li>YouTube Refuses U.K. Government Request to Remove Russell Brand Video, Says It Is Investigating Content - Variety</li>
+  <li>'The subject is still taboo': Shocking new film Josephine confronts sexual violence through a child's eyes - BBC</li>
+  <li>Where is Caroline Ellison now? She's out of prison and landed a nonprofit job - Business Insider</li>
+  <li>Catholic men, SNL's 'Sister' sketch is talking to you - National Catholic Reporter</li>
+  <li>LAPD swarms home of singer Madison Beer and her fiancé Justin Herbert - ABC7 Los Angeles</li>
+  <li>Mental competency at issue in US criminal case against Meghan’s father - AP News</li>
+  <li>L'Oréal Paris Women of Worth Celebration LA 2026 red carpet: Eva Longoria, Ariana Greenblatt, Kristen Bell and more - Page Six</li>
+  <li>CMA Awards: Tim McGraw’s Rare Red Carpet Moment With Daughters Audrey and Maggie Is All You Want to See - E! News</li>
+  <li>Dolly Parton’s Niece Wears Beaded Fringe Dress Originally Designed for the Late Singer at CMA Awards 2026 - InStyle</li>
+  <li>Florence Pugh slams 'disturbing' cosmetic surgery speculation - USA Today</li>
+  <li>Whoopi Goldberg left mortified as ‘The View’ hosts get embroiled in a very crude debate on-air - Page Six</li>
+  <li>Grimes & Elon Musk Feud Over AI ‘Sex Slave,’ Singer Urges Ex to ‘Step Up’ and Be ‘the King He Used to Be’ - Billboard</li>
+  <li>'Hunger Games: Sunrise One The Reaping' Box Office Global Forecast - Deadline</li>
+  <li>Skydance to Fold Paramount TV Studios Into Warner Bros. TV Under Channing Dungey and Matt Thunell - Variety</li>
+  <li>Jimmy Kimmel shocked by audience response to monologue joke - Entertainment Weekly</li>
+  <li>Kim Zolciak’s 15-year-old son K.J. reportedly charged with 16 offenses, including incest, in previous case - Entertainment Weekly</li>
+</ul>
+<h2>general</h2>
+<ul>
+  <li>Puka Nacua’s suspension arises from diversion program - NBC Sports</li>
+  <li>Senate passes landmark permitting deal - Politico</li>
+  <li>Colts-Texans highlights: Best plays, moments, touchdowns, more - ESPN</li>
+  <li>GTA 6 breaks records as sales top $2bn - industry estimate - BBC</li>
+  <li>Texas execution took over an hour as staff struggled to find vein; Reinaldo Dennes moaned about pain - CNN</li>
+  <li>Army postpones detonation of lead azide at Iowa ammunition plant - KCCI</li>
+  <li>Justice Department seeks dismissal of its lawsuit in the Alaska Senate race - NBC News</li>
+  <li>US approved sale of Nvidia and AMD chips to Chinese companies - Financial Times</li>
+  <li>SoftBank plunges over 16% as AI sell-off hits Asian tech stocks following Anthropic debut - CNBC</li>
+  <li>2-year-old who went missing in Arizona desert found by volunteer: "I'll never forget it as long as I live" - CBS News</li>
+  <li>Experts have for decades wanted to diagnose CTE in living people. BU researchers may have found a way. - The Boston Globe</li>
+  <li>Trump pardons late baseball great Pete Rose after historic China trip - ABC News - Breaking News, Latest News and Videos</li>
+  <li>Hyundai reveals new 'bold and muscular look' Elantra - Detroit Free Press</li>
+  <li>Fiona the hippo dies after eating a hat, Cincinnati Zoo says - NBC News</li>
+  <li>LSU President says he has instructed Will Wade to not play RJ Luis - On3</li>
+  <li>MacBook Pro Black Friday Deals Are Here: Get Up to $250 Off M6 and PROLED XDR - MacRumors</li>
+  <li>Trump’s pick for agency providing election security says Jan. 6 was not an attack - NBC News</li>
+  <li>Apple Is Working on AI Agent for Device Control, Apps, Browsing and Coding - Bloomberg.com</li>
+  <li>Saudi Arabia says Houthi attack damaged Riyadh tower - Al Jazeera</li>
+  <li>Iran war powers measure again falls short in Senate - CBS News</li>
+  <li>NASA’s Voyager 1 phones home from an awe-inspiring one light-day away - AP News</li>
+  <li>Google will launch Android app verification requirement globally in January 2027 - Ars Technica</li>
+  <li>Putin says Russia won't negotiate limited ceasefire with Ukraine after bridge strike - CBS News</li>
+  <li>‘The Traitors: New Blood’ Renewed For Season 2 At NBC - Deadline</li>
+  <li>Islam to surpass Christianity as world’s largest religion by 2035, Pew data shows - The Times of Israel</li>
+  <li>Taylor Swift Goes Full Showgirl for Third CMA Awards Outfit in Bejeweled Minidress Dripping With Fringe - InStyle</li>
+  <li>Ella Langley sweeps Country Music Awards as Taylor Swift performs with Keith Urban - BBC</li>
+  <li>Measles comeback puts daycares, schools on the front lines - The Hill</li>
+  <li>Potatoes grown in simulated lunar soil match Earth-grown performance - Phys.org</li>
+  <li>Eighth measles death reported as Pennsylvania nears 1,600 cases - The Washington Post</li>
+  <li>Mental competency at issue in US criminal case against Meghan’s father - AP News</li>
+  <li>Astronomers witness a star eating its companion in 1st-of-its-kind observation - Space</li>
+  <li>More Adults Over 65 Are Taking GLP-1s—Here’s Why Doctors Urge Caution - Health.com</li>
+</ul>
+<h2>health</h2>
+<ul>
+  <li>Experts have for decades wanted to diagnose CTE in living people. BU researchers may have found a way. - The Boston Globe</li>
+  <li>Do you need a measles booster shot now that the U.S. has lost its elimination status? - PBS</li>
+  <li>Why Nearly 1 in 7 College Students Have Tried Creatine - Gizmodo</li>
+  <li>Discovery points to new approach for treating diabetes—no insulin required - Medical Xpress</li>
+  <li>Popular alcoholic drinks linked to sudden kidney damage in 14-year study - Fox News</li>
+  <li>Stem cells injected into brains of Alzheimer’s patients in world first - The Times</li>
+  <li>Health officials warn after rabid cat, raccoon expose one person and one cat in SC - WYFF</li>
+  <li>Balancing redox-mediated cytotoxicity and catalysis in natural product biosynthesis - Science | AAAS</li>
+  <li>A neural code for generative speech production in human Wernicke’s area - Science | AAAS</li>
+  <li>Childhood stomach bug toxin is ‘leading explanation’ for rise in early-onset colorectal cancer: expert - New York Post</li>
+  <li>Ambulance service declares critical incident due to high demand - BBC</li>
+  <li>Grindr’s new filter hasn’t been fully rolled out yet & it’s already causing controversy - Queerty</li>
+  <li>Chronic wasting disease detected in Idaho mule deer along Snake River - KTVB</li>
+  <li>This One Sleep Factor Matters More Than How Many Hours You Get, Study Suggests - ScienceAlert</li>
+  <li>Dear Doctor: I can get COVID and flu shots on the same day, but does that mean I should? - OregonLive.com</li>
+  <li>People Who Don't Feel Anxious All The Time Know How To Regulate Themselves In 8 Easy Ways, Say Experts - YourTango</li>
+  <li>After a Breast Cancer Diagnosis at 30, Her Twin Sister ‘Dropped Everything’ and Moved 1,200 Miles to Help (Exclusive) - Yahoo</li>
+  <li>Facial photographs reveal mortality risk beyond triage and clinical risk scores - Nature</li>
+  <li>Assessing Multiple Treatment Regimens for Tuberculosis - NEJM</li>
+  <li>Frequent night shifts linked to changes in heart structure and function - News-Medical</li>
+  <li>Scientists Link 2 Simple Eating Habits to Lasting Lower Weight - ScienceAlert</li>
+  <li>Measles comeback puts daycares, schools on the front lines - The Hill</li>
+  <li>As many employers stop covering GLP-1s for weight loss, workers are left scrambling - NBC News</li>
+  <li>Cincinnati Health Department urges families to confirm vaccine records ahead of holidays - WKRC</li>
+  <li>Why your joints may act up in the winter — and what can help - The Washington Post</li>
+  <li>I’m a cardiologist. I’m a little puzzled about the blockbuster new study on deprescribing statins - STAT</li>
+  <li>3 deaths reported amid Washington County respiratory illness outbreak - WGME</li>
+  <li>Eighth measles death reported as Pennsylvania nears 1,600 cases - The Washington Post</li>
+  <li>IU Among US and Canadian Young Adults Attending College 1992-2023 - JAMA</li>
+  <li>Mpox case reported in the Denver metro area - KDVR</li>
+  <li>Looks like Colorado could be in for another bad flu season, and 3 out of 4 people aren’t vaccinated - Colorado Public Radio</li>
+  <li>Flu activity rises to high levels across 6 US states: CDC says - New York Post</li>
+  <li>RFK Jr.’s Measles Cure Theory Comes Back to Light - Yahoo</li>
+  <li>A glucose-powered artificial neuroimmune axis for metabolic control - Nature</li>
+  <li>Meet the teen who called a St. Louis hospital home for more than 475 days - STLtoday.com</li>
+  <li>L&I inspects two Central Washington dairies after worker dies from bird flu - KOMO</li>
+  <li>NIH director calls for new probe of controversial COVID-19 origin paper - Science | AAAS</li>
+  <li>Multiple cases of dog fungal disease reported in New York - WPTZ</li>
+  <li>Alzheimer’s blood marker could predict cognitive decline risks, says Mayo Clinic - Fox News</li>
+  <li>Stem cell–derived nanoparticles modulate immune cells and help delay type 1 diabetes in mice - Phys.org</li>
+  <li>Unhappy marriages could cause dementia: New study - NewsNation</li>
+  <li>Closest relatives of poxviruses prevail in human and animal guts worldwide - Nature</li>
+  <li>Patients running out of options as antibiotics stop working against common infections - UN News</li>
+  <li>A New Report Detailed The Risk Of Measles During Pregnancy. Scientists Say It Was Quietly Buried By The CDC. - HuffPost</li>
+  <li>MIT discovers that aging weakens the brain’s nighttime cleaning system - ScienceDaily</li>
+  <li>Experimental Nose Drops Restored Fading Memory And Boosted Neuron Growth In Mice - ScienceAlert</li>
+  <li>How pelvic floor physical therapy works and why few talk about it - WBUR</li>
+  <li>Multiple short walks better than one long walk for controlling blood sugar - Medical Xpress</li>
+  <li>GLP-1 Drugs and Kids: 'Is It the Right Thing?' - Newser</li>
+  <li>Vapes cause ‘irreversible’ internal damage, study finds: ‘This should be a wake-up call’ - New York Post</li>
+  <li>Respiratory illnesses surge across US as CDC warns of unusual trends - NewsNation</li>
+  <li>Toward a Healthier Future Through Obesity Prevention and Care The JAMA Summit Report on Obesity - JAMA</li>
+  <li>I Thought My Cough Was a Cold or COVID. It Turned Out to Be Lung Cancer - Prevention</li>
+  <li>Generational gains in cognitive capacity and dementia incidence rates in Western countries - Nature</li>
+  <li>Five surprising ways to boost your iron - that have nothing to do with meat - BBC</li>
+  <li>A Gene Inherited From Neanderthals Is Still Shaping Human Brains – And May Affect Schizophrenia Risk - ScienceAlert</li>
+  <li>More Adults Over 65 Are Taking GLP-1s—Here’s Why Doctors Urge Caution - Health.com</li>
+  <li>‘A lot of women are angry’: What people don’t know about perimenopause - CNN</li>
+  <li>Why sleep matters when it comes to weight gain and loss - NPR</li>
+  <li>Scientists compared antidepressants over the long term. Three drugs stood out - Cleveland.com</li>
+  <li>Ebola Outbreaks—What Does the Bible Say? - JW.ORG</li>
+  <li>I hit my goal weight on a GLP‑1 — what now? - Yahoo Health</li>
+</ul>
+<h2>science</h2>
+<ul>
+  <li>Physicists Just Sent an Unblockable Message Encoded in Gravity—Using a 1950s Elevator - Gizmodo</li>
+  <li>No more asteroid landing: Engine trouble forces Japan's Hayabusa2 probe to change plans - Space</li>
+  <li>NASA’s Voyager 1 phones home from an awe-inspiring one light-day away - AP News</li>
+  <li>What if space and time don’t exist? Physicists are chasing hints that our reality emerges from something deeper - Live Science</li>
+  <li>Dark personality traits linked to better chance at getting a second date - Phys.org</li>
+  <li>Astronomers discover remarkable triple-star system just 28 light-years from Earth - Phys.org</li>
+  <li>Scientists Fear a Biological Apocalypse Could Destroy Us. Now They Have a Way to Stop It. - Yahoo</li>
+  <li>Scientists Say De-Extinction Is Impossible—Because Extinction Isn’t What You Think It Is - Yahoo News Canada</li>
+  <li>4D ultrasound cerebral angiography reveals the hemodynamics of the circle of Willis in primates - Nature</li>
+  <li>X-rays tear water apart before its electrons can relax - Phys.org</li>
+  <li>Invasive marine worm found in Long Island Sound. It’s the first confirmed East Coast record - CT Insider</li>
+  <li>APOD: 2026 November 19 - The Horsehead and Flame Nebulas - NASA Science (.gov)</li>
+  <li>Observation of tunable superradiant frequency combs - Nature</li>
+  <li>NASA plans to send a nuclear-powered spacecraft toward Mars in late 2028. It will carry three helicopters based on Ingenuity, the drone that flew 72 times on Mars - Futura, le média qui explore le monde</li>
+  <li>Structural and regulatory evolution across the genus Hordeum - Nature</li>
+  <li>Astronomers witness a star eating its companion in 1st-of-its-kind observation - Space</li>
+  <li>Black Holes May Be Born From Failed Star Explosions - Newser</li>
+  <li>Earth is missing over a billion years of geological history. Scientists may have discovered why - Space</li>
+  <li>Students Fighting to Save Poached Plant Species That Only Exists in Near Their Campus - Good News Network</li>
+  <li>Duck-Billed Dinosaur’s Beak was as Complex as Bird’s - Sci.News</li>
+  <li>Strange radio signals from space could come from a dead star - Phys.org</li>
+  <li>Eagles may have hunted early human ancestors, shaping evolution - The Washington Post</li>
+  <li>How electrons find their way to diamond's quantum defects - Phys.org</li>
+  <li>Supernova explodes before astronomers' eyes photo of the day for Nov. 18, 2026 - Space</li>
+  <li>What a drawer full of outgrown clothes taught me about the meaning of time - The Washington Post</li>
+  <li>The surprising science of awe — and what it reveals about consciousness - Big Think</li>
+  <li>Using a microwave link to transfer a three-level quantum state - Phys.org</li>
+  <li>Genomic signatures of recent human adaptation to the foraging-to-farming transition - Nature</li>
+  <li>An extracellular contractile injection system for receptor-mediated protein delivery into plant cells - Nature</li>
+  <li>APOD: 2026 November 18 - A Medium-Sized Solar Flare - NASA Science (.gov)</li>
+  <li>NASA smashed into an asteroid. Now scientists have discovered something strange. - Yahoo Tech</li>
+  <li>Hawking’s Black Hole Paradox Exposed Clash Between Physics Theories - American Physical Society</li>
+  <li>CERN physicists measure universe at smallest scale ever, catching 1 in 10 billion particle interaction - Live Science</li>
+  <li>A Montana rancher found a dinosaur on her own land in 2019. Seven years later, its skeleton sold for $47.3 million in New York - Futura, le média qui explore le monde</li>
+  <li>Scientists Recreate the First 2 Billion Years of the Universe in Stunning New Simulation - Yahoo</li>
+  <li>Black bear gets little too close to another bear’s butt and wins award - Yahoo</li>
+  <li>Tiny parasite holds big clues to help protect threatened estuarine turtles - Phys.org</li>
+  <li>Scientists Have Discovered Strange Glaciers With Towering Cliffs Inside Martian Craters - ScienceAlert</li>
+  <li>Miles Below the Pacific, Rocks Litter the Abyss. Something Is Alive Inside Them—Thousands of Somethings. - Yahoo</li>
+  <li>DNA offers clues to the Bombay duck's rise in the East China Sea - Phys.org</li>
+  <li>Satellites now outnumber the visible stars above most towns - Space</li>
+  <li>Scientists Found a Neanderthal Group That Stayed Genetically Isolated for 50,000 Years - ZME Science</li>
+  <li>Large Orca Relative Hunted in North Sea Over Two Million Years Ago - Sci.News</li>
+  <li>Scientists Just Found Something Strange Under the Skin of Sea Pigs - Yahoo</li>
+  <li>An open agentic AI co-scientist for clinical and biomedical discovery - Nature</li>
+  <li>What Makes Up the Cosmos? A 20-Year Survey Hints That Something Is Missing. - Quanta Magazine</li>
+  <li>NASA's Curiosity Rover Burst Open a Rock on Mars And Found a Big Surprise - Yahoo Tech</li>
+  <li>Giant, prehistoric rodent fossils discovered in southern Thailand - Phys.org</li>
+  <li>Why hasn't the 'Blaze Star' exploded yet? Astronomers weigh in on what to expect - Space</li>
+  <li>Leonid meteor shower peaks tonight, Nov. 16, here's how to watch it - The Weather Channel</li>
+  <li>"It rolled over the rocks right up to me and extended a tentacle towards my toes, which I quickly retracted" - BBC Wildlife Magazine</li>
+  <li>Most Drivers Don't Realize This Handy Car Gadget Is Actually Illegal In Some States - BGR</li>
+  <li>125,000-year-old poisoned stone points found beside an ancient lake in the Saudi Arabian desert - Archaeology News Online Magazine</li>
+  <li>“Bubbles are coming up all over the place.” One mile below the surface of the ocean, it fizzes like Champagne - BBC Wildlife Magazine</li>
+  <li>Extinct ‘vampire camel’ once stalked North American plains - Science | AAAS</li>
+</ul>
+<h2>sports</h2>
+<ul>
+  <li>Live scores, updates, news: Penguins vs. Blues, 7:08 p.m. - DK Pittsburgh Sports</li>
+  <li>Puka Nacua’s suspension arises from diversion program - NBC Sports</li>
+  <li>Colts-Texans highlights: Best plays, moments, touchdowns, more - ESPN</li>
+  <li>Hernández back in Majors with Mets after posting 1.48 ERA in NPB (source) - MLB.com</li>
+  <li>If Mets are to land big fish Skubal, Stearns needs to sail uncharted waters - MLB.com</li>
+  <li>Wet conditions limit running in FP1 at Las Vegas Grand Prix - Formula 1</li>
+  <li>Texans DE Chris Braswell seriously injures leg on opening kickoff - NBC Sports</li>
+  <li>Tuten (ankle/foot) misses Thursday practice - NBC Sports</li>
+  <li>Golden State Warriors vs Memphis Grizzlies Nov 19, 2026 Box Scores - NBA.com</li>
+  <li>SEC standardized NIL, revenue sharing contracts 'unfair' for players, agents say - ESPN</li>
+  <li>Trump pardons late baseball great Pete Rose after historic China trip - ABC News - Breaking News, Latest News and Videos</li>
+  <li>Eastern vs MIT DIII Volleyball Women Game Summary - November 19, 2026 - NCAA.com</li>
+  <li>Ranking the Top 30 prospects from the '26 Fall League campaign - MLB.com</li>
+  <li>Aidan Hutchinson shares thoughts on injury: ‘I always come back stronger’ - Pride Of Detroit</li>
+  <li>Bears work to get a stadium deal in Illinois by December 3 - NBC Sports</li>
+  <li>NCAA grants waiver for Army vs. Navy to be played as 13th game in 2027 amid College Football Playoff expansion - CBS Sports</li>
+  <li>49ers player claims Vikings tried to book Colorado facility but were too late - Bring Me The News</li>
+  <li>Michigan receiver Andrew Marsh faces charge for indecent exposure - The Detroit News</li>
+  <li>Lance Broadway, Pitcher Turned ‘Olympus Has Fallen’ Actor, Dies at 43 - The Hollywood Reporter</li>
+  <li>Mayfield (foot) returns to practice on Thursday - NBC Sports</li>
+  <li>How Lionel Messi's 2026 Inter Miami Contract Compared to Payrolls of Entire MLS Teams - Bleacher Report</li>
+  <li>LSU just dared the SEC to enforce its own rules. Now the conference has a major problem - Yahoo Sports</li>
+  <li>Merab Dvalishvili calls for Song Yadong next, expects Sean O’Malley to get title shot - MMA Fighting</li>
+  <li>Five Week 12 games could reshape the College Football Playoff picture - Deseret News</li>
+  <li>Kirk Cousins called Fernando Mendoza to “debrief” after rookie’s first start - NBC Sports</li>
+  <li>‘It worked every time': How Sixers found a clutch answer at shootaround - NBC Sports Philadelphia</li>
+  <li>Capitals morning skate: Carbery subtly changing lines, Logan Thompson to start against Sabres, and Hockey Fights Cancer night plans - RMNB</li>
+  <li>Reilly Wins Unprecedented Fourth Straight Big Ten Setter of the Year Award - Sports Illustrated</li>
+  <li>Cowboys' Parker: I'm still DC, have 'job to do' after losing playcalling duties - ESPN</li>
+  <li>Netflix, Amazon, Fox to bid for 2030 men's World Cup rights; Disney out - CNBC</li>
+  <li>Troy Aikman escalates ongoing feud with Joe Buck, saying broadcast partner ‘always wanted a one-man booth’ - NBC News</li>
+  <li>11/19 Preview - Zuccarello, Fiala Beginning to Thrive + Moore Out, Helenius in, Gustafsson's Strong Return, Coaching Reunion - LA Kings Insider</li>
+  <li>WNBA’s LA Sparks Near Record $750 Million Sale to Feliciano, Jones - Sportico.com</li>
+  <li>Week 11 Start 'Em, Sit 'Em, Play or Bench Advice on Top Fantasy Football NFL Stars - Bleacher Report</li>
+  <li>College football Week 12 picks, odds: 2 best bets for Saturday's games - Yahoo Sports</li>
+  <li>Bill Belichick, Robert Kraft advance to final round of Hall of Fame voting - NBC Sports</li>
+  <li>House working on small revisions of Protect College Sports Act before vote - On3</li>
+  <li>NFL news roundup: Broncos, CB Riley Moss agree to terms on four-year, $67 million extension - NFL.com</li>
+  <li>Bedard may need surgery for Blackhawks, will miss upcoming road trip - NHL.com</li>
+  <li>Who Glenn Schumann could make his offensive coordinator if he takes the job at Florida State - 247Sports</li>
+  <li>Kurt Warner praises Kirk Cousins, warns Vikings fans about problems that remain - Bring Me The News</li>
+  <li>Reigning champion UCLA lands Wilson Manyacka, No. 2 prospect in 2027 SC Next 100 - ESPN</li>
+  <li>College basketball rankings: Houston claims No. 1 spot in Top 25 And 1, sets up primetime showdown with Kansas - CBS Sports</li>
+  <li>NFL Week 11 picks: Our experts face off on Colts at Texans, Vikings vs. 49ers and more - CBS Sports</li>
+  <li>NFL mock draft 2027: 4 QBs selected in first-round projection with Arch Manning twist - SB Nation</li>
+  <li>The Nets have lost their way… Now what? - NetsDaily</li>
+  <li>What we learned about new NC State coach Philip Rivers in Fairhope, Alabama - ESPN</li>
+  <li>Skubal to ...? What about other big free agents? How MLB offseason dominoes fall - ESPN</li>
+  <li>UNC's Cameron Fens Files Lawsuit Against NCAA in Orange County - On3</li>
+  <li>Celtics star called for shocking technical foul in Nuggets loss - MassLive</li>
+  <li>Suns get much-needed charge from starters to beat Kings - Arizona Sports</li>
+  <li>No. 12 Arizona hangs on to beat No. 3 UConn after nearly flawless 1st half - Arizona Sports</li>
+  <li>Drayer: What the Maikel Garcia trade means for Mariners - Seattle Sports</li>
+  <li>Nebraska's Jahsear Whittington out for Ohio State matchup, other noteworthy Husker injuries - 247Sports</li>
+  <li>No. 1 Florida Upset by No. 8 Houston, Box Score Stats & Highlights of 2025 MCBB Title Game Rematch - Bleacher Report</li>
+  <li>Twins pull off another big surprise, reuniting with Sonny Gray for $55 million - AaronGleeman.com</li>
+  <li>Steelers hope to get a 'boost' from Michael Pittman Jr., Roman Wilson - DK Pittsburgh Sports</li>
+  <li>Steelers-Bengals on Sunday Night Football draws 21.519 million viewers - NBC Sports</li>
+  <li>NC State names longtime NFL assistant Jason Michael as offensive coordinator under Philip Rivers - FootballScoop.com</li>
+  <li>Amanda Nunes reacts as Kayla Harrison registers interest in title fight against Valentina Shevchenko - Bloody Elbow</li>
+  <li>Good news for 49ers WR Mike Evans despite not practicing - Niners Wire</li>
+  <li>Big Ten Power Rankings: Playoff hopes, hot seats fuel pivotal final two weeks of season - CBS Sports</li>
+  <li>Alexander Zverev officially notified of lawsuit by ex-partner in abuse case - ESPN</li>
+  <li>Re-grading the Giannis Antetokounmpo trade: Why the Heat and Bucks both look much worse now - CBS Sports</li>
+</ul>
+<h2>technology</h2>
+<ul>
+  <li>GTA 6 breaks records as sales top $2bn - industry estimate - BBC</li>
+  <li>GTA 6 Mandy Actor Officially Reveals Her Identity in Video After Character Goes Viral - Yahoo</li>
+  <li>MacBook Pro Black Friday Deals Are Here: Get Up to $250 Off M6 and PROLED XDR - MacRumors</li>
+  <li>Apple Is Working on AI Agent for Device Control, Apps, Browsing and Coding - Bloomberg.com</li>
+  <li>PS5 vs. Xbox Series X for GTA 6? Here's How the Hardware and Prices Stack Up - PCMag</li>
+  <li>Cyberleek Is Threatening To Unleash Chaos Again After Allegedly Tossing An Xbox Build Of GTA 6 Onto The Internet - Kotaku</li>
+  <li>'GTA 6': Fox News Slams Fans, Clavicular & Manosphere Bros Hate Lucia - Variety</li>
+  <li>Next year’s iPhone Pro redesign sounds like exactly what I’ve been wanting - 9to5Mac</li>
+  <li>Steam Machine 512GB can now be purchased directly, as Valve closes waitlist for the 2TB model - Notebookcheck</li>
+  <li>18 Coolest Details Players Have Spotted In GTA 6 So Far - Kotaku</li>
+  <li>'Encouraging Real-World Hostility and Violence' — Furry Community Divided by GTA 6 Parody - IGN</li>
+  <li>Sony’s WH-1000XM5 are cheaper than ever for Black Friday - The Verge</li>
+  <li>'GTA 6' Is Triggering Men Who Are Learning How To Have A Girlfriend - Polygon.com</li>
+  <li>The Best Buy Black Friday Deals Include Gaming PCs, TVs, and Popular LEGO Sets - IGN</li>
+  <li>iPhone Duo vs. Samsung Galaxy Z Fold8: Which is Better? - MacRumors</li>
+  <li>Google will launch Android app verification requirement globally in January 2027 - Ars Technica</li>
+  <li>Nintendo launches 2026 Black Friday eShop sale, full list of Switch 2 and Switch deals - Nintendo Everything</li>
+  <li>The best early Black Friday deals: discounts on OLED TVs, wireless headphones and more, handpicked by our experts - What Hi-Fi?</li>
+  <li>AMD XDNA 2 NPUs can now run 35B-parameter AI models through Unsloth Desktop - VideoCardz.com</li>
+  <li>Ubisoft lays off 166 staff at Montreal and Quebec studios - Gematsu</li>
+  <li>Samsung One UI 9.5 Beta Is Here: 5 New Features and Which Galaxy Phones Qualify - TechRepublic</li>
+  <li>Tomorrow Marks the End of a 28-Year Era at Apple - MacRumors</li>
+  <li>Google Store Black Friday 2026: Refurb Pixel discounts, Fitbit Edge trade-in, more - 9to5Google</li>
+  <li>The Best Ways To Earn Money In ‘GTA 6,’ Early, Mid- And Late-Game - Forbes</li>
+  <li>Rockstar Kept One Of GTA 6’s Biggest Early Spoilers Under Wraps For Years - Kotaku</li>
+  <li>Warren Spector lambasts GTA 6's "billion dollar" development - 'I just hope it's is the last of its kind even if it's the best we have to offer' - Eurogamer.net</li>
+  <li>You can't cheat on Lucia in GTA 6 with Mandy or strippers because Rockstar doesn't believe that's 'complementary to the feeling and motivations' of Jason and Lucia's story - Yahoo Tech</li>
+  <li>Rockstar Confirms GTA 6 Won't Get 60 FPS Mode - 80 Level</li>
+  <li>Famitsu sales (11/9/26 – 11/15/26) – Zelda: Ocarina of Time’s second week of sales are in - Nintendo Everything</li>
+  <li>Apple announces Black Friday deals on iPhone, iPad, Mac, and more - 9to5Mac</li>
+  <li>New GTA 6 Players, Be Careful When Claiming Your GTA+ Pre-Order Bonus - Push Square</li>
+  <li>The 10 Greatest Games to Never Get a GOTY Nomination - Polygon.com</li>
+  <li>How weapon ownership works in GTA 6 - GamesRadar+</li>
+  <li>Google launches Gemini 4 Neon with Opus 5.5-level coding performance at 25% lower API token prices - VentureBeat</li>
+  <li>Satya Nadella predicts AI agents will reshuffle the economics of the web - TechCrunch</li>
+  <li>51+ tech gifts anyone would be excited to unwrap - NBC News</li>
+  <li>Republican Congressman says you’re a ‘bad parent’ if you let your child play GTA 6 - Video Games Chronicle</li>
+  <li>PlayStation suffers major outage hours before "GTA VI" launch - Axios</li>
+  <li>The first Nvidia RTX Spark mini PCs launch today from Asus, Dell, and MSI - The Verge</li>
+  <li>Grand Theft Auto staff 'caught red-handed' in confidentiality breach, tribunal hears - BBC</li>
+  <li>The Vice City Heat: Miami’s NBA team goes all in on ‘Grand Theft Auto VI’ collaboration - AP News</li>
+  <li>Grand Theft Auto 6 is the big release in November 2026, but there are other games to consider for something different - PCGamesN</li>
+  <li>Grand Theft Auto VI Xbox achievements revealed - TrueAchievements</li>
+  <li>Grand Theft Auto 6 complete walkthrough hub - Video Games Chronicle</li>
+  <li>All GTA 6 Cheats And How To Unlock Them - GameSpot</li>
+  <li>What parents need to know about GTA 6 and kids - ABC News - Breaking News, Latest News and Videos</li>
+</ul>
+</body>
+</html>
